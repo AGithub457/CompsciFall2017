@@ -3,19 +3,6 @@
  * Term: 2017 Fall
  * Course: ComSc-110-3120, Introduction to Programming with C++
  *
- * Chapter:
- * Program:
- * Author: Agopian, Armand
- * Date:
- *
- * Purpose:
- */
-
-/*
- * School: Diablo Valley College
- * Term: 2017 Fall
- * Course: ComSc-110-3120, Introduction to Programming with C++
- *
  * Chapter: 03
  * Program: Pr03a-Patient-Agopian-Armand.cpp
  * Author: Agopian, Armand
