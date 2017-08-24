@@ -1,6 +1,14 @@
-/**
- * @Date:   2017-08-24T09:32:11-07:00
- * @Last modified time: 2017-08-24T10:33:13-07:00
+/*
+ * School: Diablo Valley College
+ * Term: 2017 Fall
+ * Course: ComSc-110-3120, Introduction to Programming with C++
+ *
+ * Chapter:
+ * Program:
+ * Author: Agopian, Armand
+ * Date:
+ *
+ * Purpose:
  */
 
 /*
