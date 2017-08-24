@@ -1,0 +1,57 @@
+DVC, 2017 Fall, COMSC-110 (3120)
+Assignment Pr01: Three-Egg Omelet Algorithm
+Armand Agopian
+
+--------------------
+
+Ingredients:
+	• 3 Eggs
+	• 1/2 Cup Bacon
+
+Equipment/Utensils:
+	• Stove
+	• Frying Pan
+	• Spoon
+	• Egg Counter
+	• Egg Timer
+
+Instructions:
+  01. Go to the refrigerator
+  02. If the refrigerator contains an egg carton
+      then continue to the next step
+      else branch to step 4
+  03. If the egg carton contains < 3 eggs
+      then continue to the next step
+      else branch to step 6
+  04. Go to the market and buy an egg carton
+  05. Return home to the kitchen
+  06. Take a frying pan from the cupboard and put it on the stove
+  07. Turn on the stove beneath the frying pan
+  08. Set an egg counter to 0
+  09. Set an egg timer to 5 minutes and start a timer
+  10. Remove 1 egg from the egg carton
+  11. Increment the egg counter
+  12. Crack 1 egg into the frying pan
+  13. If egg counter = 3
+      then continue to the next step
+      else loop back to step 10
+
+  14. Go to the pantry
+  15. If the pantry contains a dried and crushed bacon can
+      then continue to the step 18
+      else branch to the next step
+  16. Go to the store to buy dried and crushed bacon
+  17. Return home to the kitchen
+  18. Go back to the frying pan
+  19. Open the can of bacon and dump all contents into the pan
+  20. Go to the nearest drawer
+  21. Open the drawer and grab a spatula
+  22. Close the drawer and go back to the frying pan on the stove
+  23. Use spatula to mix the contents of the frying pan together
+  24. Go to nearest cupboard and grab a plate
+  25. Close cupboard and put plate near frying pan
+  26. Grab frying pan by the handle and lift & pour contents out onto plate
+  27. Turn off the stove
+  28. Grab egg carton, close it, and put it back in the fridge
+  29. Go back to the stove area, and grab the empty can of bacon and throw it in the recycling bin nearby
+  30. Go back to the stove area, and grab the frying pan and spatula and go to the sink to drop them in to wash later
