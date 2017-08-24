@@ -19,7 +19,7 @@
  * Chapter: 03
  * Program: Pr03a-Patient-Agopian-Armand.cpp
  * Author: Agopian, Armand
- * Date: August 22, 2017
+ * Date: August 24, 2017
  *
  * Purpose: Get familiar with:
  * -- declaring variables of different types
