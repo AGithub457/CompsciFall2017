@@ -10,6 +10,7 @@
  *
  * Purpose: Learn some basics about creating, compiling, and executing a C++ program that outputs a greeting to a computer console.
  */
+
 #include <iostream>
 
 using namespace std;
