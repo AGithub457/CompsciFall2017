@@ -52,5 +52,23 @@ int main()
   cout << right;
 
   //To the console, output a program title
-  cout << endl << "Temperature Program" << endl << endl;
+  cout << endl;
+  cout << "Temperature Program" << endl;
+  cout << "-------------------" << endl;
+
+  //Sample Problem
+  //To the console, output some column headings
+  cout << endl;
+  cout << "Fahrenheit  Celsius" << endl;
+  cout << "----------  -------" << endl;
+  cout << endl;
+
+  //Convert 3 Fahrenheit temperatures to Calsius
+  //and, to the console, output results
+
+  //Temperature 1 of 3
+  f = 21200000.0;
+  c = 5.0 / 9 * (f - 32);
+
+    cout << setw(10) << f << "  " << setw(7) << c << endl;
 }
