@@ -31,5 +31,26 @@
  * Real
  * Problem: Do the above, plus convert additional
  *          temperatures shown on the big screen the
- *          other way around, from Calcius to Fahrenheit.
+ *          other way around, from Celsius to Fahrenheit.
  */
+
+//Preprocessor directives
+
+#include <iomanip>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  //Declare variables
+  double c;  //Celsius     temperature;
+  double f;  //Fahrenheit  temperature;
+
+  //Format floating-point output
+  cout << fixed << showpoint << setprecision(1);
+  cout << right;
+
+  //To the console, output a program title
+  cout << endl << "Temperature Program" << endl << endl;
+}
