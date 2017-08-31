@@ -70,5 +70,5 @@ int main()
   f = 21200000.0;
   c = 5.0 / 9 * (f - 32);
 
-    cout << setw(10) << f << "  " << setw(7) << c << endl;
+  cout << setw(10) << f << "  " << setw(7) << c << endl;
 }
