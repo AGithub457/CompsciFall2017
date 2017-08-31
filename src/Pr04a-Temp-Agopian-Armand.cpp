@@ -35,7 +35,6 @@
  */
 
 //Preprocessor directives
-
 #include <iomanip>
 #include <iostream>
 
@@ -57,18 +56,88 @@ int main()
   cout << "-------------------" << endl;
 
   //Sample Problem
+
   //To the console, output some column headings
   cout << endl;
   cout << "Fahrenheit  Celsius" << endl;
   cout << "----------  -------" << endl;
-  cout << endl;
 
   //Convert 3 Fahrenheit temperatures to Calsius
   //and, to the console, output results
 
   //Temperature 1 of 3
-  f = 21200000.0;
-  c = 5.0 / 9 * (f - 32);
+  f = 212.0;
+  c = 5.0 / 9.0 * (f - 32);
 
   cout << setw(10) << f << "  " << setw(7) << c << endl;
+
+  //Temperature 2 of 3
+  f = 72.0;
+  c = 5.0 / 9.0 * (f - 32);
+
+  cout << setw(10) << f << "  " << setw(7) << c << endl;
+
+  //Temperature 1 of 3
+  f = 32.0;
+  c = 5.0 / 9.0 * (f - 32);
+
+  cout << setw(10) << f << "  " << setw(7) << c << endl;
+
+  //Real Problem
+  
+  //To the console, output some column headings
+  cout << endl;
+  cout << "Celsius  Fahrenheit" << endl;
+  cout << "-------  ----------" << endl;
+
+  //Convert 8 Celsius temperatures to Fahrenheit
+  //and, to the console, output results
+
+  //Temperature 1 of 8
+  c = 100.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 2 of 8
+  c = 40.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 3 of 8
+  c = 30.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 4 of 8
+  c = 22.2;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 5 of 8
+  c = 20.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 6 of 8
+  c = 10.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 7 of 8
+  c = 0.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
+
+  //Temperature 8 of 8
+  c = -40.0;
+  f = (9.0 / 5.0 * c) + 32;
+
+  cout << setw(7) << c << "  " << setw(10) << f << endl;
 }
