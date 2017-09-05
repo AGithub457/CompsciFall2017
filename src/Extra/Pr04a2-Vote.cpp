@@ -22,7 +22,7 @@ int main() {
         cout << "----------  -------" << endl;
 
         for(double i : cArr) {
-          int length = (int)to_string(i).length();
+          int length = to_string(i).length();
           cout << length << endl;
         }
         //Temperature 1 of 3
