@@ -101,7 +101,7 @@ int main()
        << "a single person of modest means." << endl;
 
   cout << endl
-       << "For a year "
+       << "For year "
        << year
        << ", enter an annual \n"
        << "income as a positive dollar amount \n"
@@ -111,7 +111,7 @@ int main()
 
   //Prompt the user for annual income, and inpput it
   cout << endl;
-  cout << "Income ?";
+  cout << "Income? ";
   cin  >> inc;
 
   //Validat the user's income
@@ -160,7 +160,7 @@ int main()
                                             << endl;
   cout << "Exc. Inc.: " << "$ " << setw(8)  << exc
                                             << endl;
-  cout << "Tax Rate : " << setw(8)  << rate << "%"
+  cout << "Tax Rate : " << setw(10)  << rate << "%"
                                             << endl;
   cout << "Exc. Tax : " << "$ " << setw(18) << etax
                                             << endl;
