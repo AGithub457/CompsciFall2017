@@ -14,7 +14,7 @@
  *
  * Initial
  * Problem: Since the advent of the Gregorian
- *          calendar, determine white years are leap
+ *          calendar, determine which years are leap
  *          years, except for a possible inaccuracy
  *          related to century years.
  *

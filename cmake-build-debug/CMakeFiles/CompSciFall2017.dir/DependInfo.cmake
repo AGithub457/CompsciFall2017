@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02a-Small.cpp" "C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/CompSciFall2017.dir/src/Pr02a-Small.cpp.obj"
-  "C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02b-Hello-Agopian-Armand.cpp" "C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/CompSciFall2017.dir/src/Pr02b-Hello-Agopian-Armand.cpp.obj"
+  "C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02a-Small.cpp" "C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/CompSciFall2017.dir/src/Pr02a-Small.cpp.obj"
+  "C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02b-Hello-Agopian-Armand.cpp" "C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/CompSciFall2017.dir/src/Pr02b-Hello-Agopian-Armand.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

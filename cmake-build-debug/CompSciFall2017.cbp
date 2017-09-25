@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CompSciFall2017">
-				<Option output="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CompSciFall2017.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+			<Target title="Pr02a-Small">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr02a-Small.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -30,17 +30,18 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 CompSciFall2017"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr02a-Small"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="CompSciFall2017/fast">
-				<Option output="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CompSciFall2017.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+			<Target title="Pr02a-Small/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr02a-Small.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,42 +52,463 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 CompSciFall2017/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr02a-Small/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr05a-Client-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr05a-Client-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr05a-Client-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr05a-Client-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr05a-Client-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr05a-Client-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr02b-Hello-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr02b-Hello-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr02b-Hello-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr02b-Hello-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr02b-Hello-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr02b-Hello-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr03b-Vote-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr03b-Vote-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr03b-Vote-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr03b-Vote-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr03b-Vote-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr03b-Vote-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr03a-Patient-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr03a-Patient-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr03a-Patient-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr03a-Patient-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr03a-Patient-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr03a-Patient-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr04b-FV-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr04b-FV-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr04b-FV-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr04b-FV-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr04b-FV-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr04b-FV-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr04a-Temp-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr04a-Temp-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr04a-Temp-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr04a-Temp-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr04a-Temp-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr04a-Temp-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06a-Tax-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06a-Tax-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06a-Tax-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06a-Tax-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06a-Tax-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06a-Tax-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06b-Avg-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06b-Avg-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06b-Avg-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06b-Avg-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06b-Avg-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06b-Avg-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06c-Leap-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06c-Leap-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06c-Leap-Agopian-Armand"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr06c-Leap-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06c-Leap-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr06c-Leap-Agopian-Armand/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02a-Small.cpp">
-			<Option target="CompSciFall2017"/>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02a-Small.cpp">
+			<Option target="Pr02a-Small"/>
 		</Unit>
-		<Unit filename="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02b-Hello-Agopian-Armand.cpp">
-			<Option target="CompSciFall2017"/>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr02b-Hello-Agopian-Armand.cpp">
+			<Option target="Pr02b-Hello-Agopian-Armand"/>
 		</Unit>
-		<Unit filename="C:/Users/arman/Google Drive/Development/CLionProjects/CompSciFall2017/CMakeLists.txt">
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr03a-Patient-Agopian-Armand.cpp">
+			<Option target="Pr03a-Patient-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr03b-Vote-Agopian-Armand.cpp">
+			<Option target="Pr03b-Vote-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr04a-Temp-Agopian-Armand.cpp">
+			<Option target="Pr04a-Temp-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr04b-FV-Agopian-Armand.cpp">
+			<Option target="Pr04b-FV-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr05a-Client-Agopian-Armand.cpp">
+			<Option target="Pr05a-Client-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr06a-Tax-Agopian-Armand.cpp">
+			<Option target="Pr06a-Tax-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr06b-Avg-Agopian-Armand.cpp">
+			<Option target="Pr06b-Avg-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr06c-Leap-Agopian-Armand.cpp">
+			<Option target="Pr06c-Leap-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
