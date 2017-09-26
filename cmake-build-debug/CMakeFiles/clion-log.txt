@@ -1,4 +1,15 @@
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017"
+C:\Users\Armand\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017"
 -- Configuring done
+CMake Error at CMakeLists.txt:16 (add_executable):
+  Cannot find source file:
+
+    src/Pr07a-Vac-Agopian-Armand.cp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: Pr07a-Vac-Agopian0Armand
+CMake Error: Cannot determine link language for target "Pr07a-Vac-Agopian0Armand".
 -- Generating done
--- Build files have been written to: C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug

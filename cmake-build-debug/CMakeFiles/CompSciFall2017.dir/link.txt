@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\CompSciFall2017.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\CompSciFall2017.dir/objects.a @CMakeFiles\CompSciFall2017.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CompSciFall2017.dir/objects.a -Wl,--no-whole-archive  -o CompSciFall2017.exe -Wl,--out-implib,libCompSciFall2017.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CompSciFall2017.dir\linklibs.rsp
