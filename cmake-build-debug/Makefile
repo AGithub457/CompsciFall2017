@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Pr07b-Timer-Agopian-Armand
+
+# Build rule for target.
+Pr07b-Timer-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr07b-Timer-Agopian-Armand
+.PHONY : Pr07b-Timer-Agopian-Armand
+
+# fast build rule for target.
+Pr07b-Timer-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build
+.PHONY : Pr07b-Timer-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr07a-Vac-Agopian0Armand
 
 # Build rule for target.
@@ -550,6 +563,33 @@ src/Pr07a-Vac-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr07a-Vac-Agopian0Armand.dir/build.make CMakeFiles/Pr07a-Vac-Agopian0Armand.dir/src/Pr07a-Vac-Agopian-Armand.cpp.s
 .PHONY : src/Pr07a-Vac-Agopian-Armand.cpp.s
 
+src/Pr07b-Timer-Agopian-Armand.o: src/Pr07b-Timer-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr07b-Timer-Agopian-Armand.o
+
+# target to build an object file
+src/Pr07b-Timer-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/src/Pr07b-Timer-Agopian-Armand.cpp.o
+.PHONY : src/Pr07b-Timer-Agopian-Armand.cpp.o
+
+src/Pr07b-Timer-Agopian-Armand.i: src/Pr07b-Timer-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr07b-Timer-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr07b-Timer-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/src/Pr07b-Timer-Agopian-Armand.cpp.i
+.PHONY : src/Pr07b-Timer-Agopian-Armand.cpp.i
+
+src/Pr07b-Timer-Agopian-Armand.s: src/Pr07b-Timer-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr07b-Timer-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr07b-Timer-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/src/Pr07b-Timer-Agopian-Armand.cpp.s
+.PHONY : src/Pr07b-Timer-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -557,6 +597,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Pr07b-Timer-Agopian-Armand"
 	@echo "... Pr07a-Vac-Agopian0Armand"
 	@echo "... Pr02a-Small"
 	@echo "... Pr02b-Hello-Agopian-Armand"
@@ -602,6 +643,9 @@ help:
 	@echo "... src/Pr07a-Vac-Agopian-Armand.o"
 	@echo "... src/Pr07a-Vac-Agopian-Armand.i"
 	@echo "... src/Pr07a-Vac-Agopian-Armand.s"
+	@echo "... src/Pr07b-Timer-Agopian-Armand.o"
+	@echo "... src/Pr07b-Timer-Agopian-Armand.i"
+	@echo "... src/Pr07b-Timer-Agopian-Armand.s"
 .PHONY : help
 
 

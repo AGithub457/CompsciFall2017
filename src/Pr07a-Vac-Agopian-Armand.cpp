@@ -127,15 +127,16 @@ int main()
     cout << "Pax   (1- 2)? ";
     cin >> pax;
 
-    if(cin.peek() != '\n')
+
+    if(cin.fail())
     {
-      cout << "Error: Not an integer \a" << endl;
+      cout << "Error: Not a number   \a" << endl;
       cin.clear();
       cin.ignore(1000, '\n');
     }
-    else if(cin.fail())
+    else if(cin.peek() != '\n')
     {
-      cout << "Error: Not a number   \a" << endl;
+      cout << "Error: Not an integer \a" << endl;
       cin.clear();
       cin.ignore(1000, '\n');
     }
