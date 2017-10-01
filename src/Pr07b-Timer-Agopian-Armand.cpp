@@ -46,6 +46,7 @@
 //Preprocessor Directives
 #include <iomanip>
 #include <iostream>
+#include <windows.h>
 
 using namespace std;
 
@@ -64,7 +65,7 @@ int main()
   cout << "--------------------------" << endl;
   cout << endl;
 
-  cout << "This proogram counts down to zero " << endl
+  cout << "This program counts down to zero "  << endl
        << "from the starting time you enter."  << endl;
   cout << endl;
   cout << "Enter a number of minutes between"  << endl
@@ -111,19 +112,27 @@ int main()
 
     if(cin.fail())
     {
-      cout << "Error: Not a number   \a" << endl;
+      cout << "Error: Not a number             \a"
+           << endl;
       cin.clear();
       cin.ignore(1000, '\n');
     }
     else if(cin.peek() != '\n')
     {
-      cout << "Error: Not an integer \a" << endl;
+      cout << "Error: Not an integer           \a"
+           << endl;
       cin.clear();
       cin.ignore(1000, '\n');
     }
+    else if(min == 2 && sec > 0)
+    {
+      cout << "Error: Max time can be 2 minutes \a"
+           << endl;
+    }
     else if(sec < 0 || sec > 59)
     {
-      cout << "Error: Out of range   \a" << endl;
+      cout << "Error: Out of range             \a"
+           << endl;
     }
     else
     {
@@ -151,6 +160,17 @@ int main()
       {
         cout << '\a';
       }
+
+      Sleep(1000);
+
+      cout << '\r';
     }
+
+    sec = 59;
   }
+
+  //Output done
+  cout << endl       << endl;
+  cout << "Done! \a" << endl;
+  cout << endl;
 }
