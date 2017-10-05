@@ -172,6 +172,21 @@ int main()
     bal = prin * pow(1.0 + (rx / 12), mint);
     cout << setw(9) << bal;
 
+    /*
+     * for(int i = 0; i < 3; i++)
+     * {
+     *   switch(i)
+     *   {
+     *     case 0 : rx = r1;     break;
+     *     case 1 : rx = r1 * 2; break;
+     *     case 2 : rx = r1 * 3; break;
+     *   }
+     *
+     *   bal = prin * pow(1.0 + (rx / 12), mint);
+     *   cout << "  " << setw(9) << bal;
+     * }
+     */
+
     cout << endl;
   }
 }
