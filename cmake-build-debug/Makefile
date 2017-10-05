@@ -124,6 +124,19 @@ Pr07c-Int-Agopian-Armand/fast:
 .PHONY : Pr07c-Int-Agopian-Armand/fast
 
 #=============================================================================
+# Target rules for targets named Pr08a-Pop-Agopian-Armand
+
+# Build rule for target.
+Pr08a-Pop-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr08a-Pop-Agopian-Armand
+.PHONY : Pr08a-Pop-Agopian-Armand
+
+# fast build rule for target.
+Pr08a-Pop-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build
+.PHONY : Pr08a-Pop-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr07b-Timer-Agopian-Armand
 
 # Build rule for target.
@@ -630,6 +643,33 @@ src/Pr07c-Int-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr07c-Int-Agopian-Armand.dir/build.make CMakeFiles/Pr07c-Int-Agopian-Armand.dir/src/Pr07c-Int-Agopian-Armand.cpp.s
 .PHONY : src/Pr07c-Int-Agopian-Armand.cpp.s
 
+src/Pr08a-Pop-Agopian-Armand.o: src/Pr08a-Pop-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr08a-Pop-Agopian-Armand.o
+
+# target to build an object file
+src/Pr08a-Pop-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/src/Pr08a-Pop-Agopian-Armand.cpp.o
+.PHONY : src/Pr08a-Pop-Agopian-Armand.cpp.o
+
+src/Pr08a-Pop-Agopian-Armand.i: src/Pr08a-Pop-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr08a-Pop-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr08a-Pop-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/src/Pr08a-Pop-Agopian-Armand.cpp.i
+.PHONY : src/Pr08a-Pop-Agopian-Armand.cpp.i
+
+src/Pr08a-Pop-Agopian-Armand.s: src/Pr08a-Pop-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr08a-Pop-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr08a-Pop-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/src/Pr08a-Pop-Agopian-Armand.cpp.s
+.PHONY : src/Pr08a-Pop-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -638,6 +678,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... Pr07c-Int-Agopian-Armand"
+	@echo "... Pr08a-Pop-Agopian-Armand"
 	@echo "... Pr07b-Timer-Agopian-Armand"
 	@echo "... Pr07a-Vac-Agopian-Armand"
 	@echo "... Pr02a-Small"
@@ -690,6 +731,9 @@ help:
 	@echo "... src/Pr07c-Int-Agopian-Armand.o"
 	@echo "... src/Pr07c-Int-Agopian-Armand.i"
 	@echo "... src/Pr07c-Int-Agopian-Armand.s"
+	@echo "... src/Pr08a-Pop-Agopian-Armand.o"
+	@echo "... src/Pr08a-Pop-Agopian-Armand.i"
+	@echo "... src/Pr08a-Pop-Agopian-Armand.s"
 .PHONY : help
 
 
