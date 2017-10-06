@@ -165,7 +165,7 @@ int main()
       sum += pop;
       count++;
     }
-  } while(pop == 0);*/
+  } while(pop != 0);*/
 
   //Format Output
   cout << fixed;
