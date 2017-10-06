@@ -161,11 +161,13 @@ int main()
   do
   {
     pop = getPop();
-    if(pop != 0)    {
+
+    if(pop != 0)
+    {
       sum += pop;
       count++;
     }
-  } while(pop == 0);*/
+  } while(pop != 0);*/
 
   //Format Output
   cout << fixed;
