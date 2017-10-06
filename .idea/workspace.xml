@@ -30,7 +30,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fbd0d18-de64-427e-a52c-c9b3903cc38f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp" afterPath="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,15 +41,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pr08a-Pop-Agopian-Armand.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pr08a-Pop-Agopian-Armand.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="563">
               <caret line="164" column="4" lean-forward="false" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
               <folding>
                 <element signature="e#1556#1574#0" expanded="true" />
                 <element signature="e#1636#2377#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pr07c-Int-Agopian-Armand.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="155" column="38" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/Pr07b-Timer-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.bat" />
         <option value="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -274,7 +284,9 @@
       <workItem from="1507216438789" duration="2738000" />
       <workItem from="1507220472452" duration="2756000" />
       <workItem from="1507223568203" duration="341000" />
-      <workItem from="1507266241904" duration="147000" />
+      <workItem from="1507266241904" duration="194000" />
+      <workItem from="1507266513741" duration="23000" />
+      <workItem from="1507269572531" duration="139000" />
     </task>
     <task id="LOCAL-00001" summary="Initial fix for CLion">
       <created>1506323743463</created>
@@ -388,17 +400,24 @@
       <option name="project" value="LOCAL" />
       <updated>1507266356994</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Pr08a-Pop: Fixed negative condition error in while loop population">
+      <created>1507266394112</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1507266394112</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34102000" />
+    <option name="totallyTimeSpent" value="34311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16426666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16746667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50186664" order="7" side_tool="true" content_ui="tabs" />
@@ -487,13 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Pr07b-Timer-Agopian-Armand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr07a-Vac-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1950">
@@ -760,13 +772,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp___jb_tmp___" />
-    <entry file="file://$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="95" column="3" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="95" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp___jb_tmp___" />
     <entry file="file://$PROJECT_DIR$/src/Pr07b-Timer-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,14 +788,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace[Conflict].xml___jb_tmp___" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="563">
           <caret line="164" column="4" lean-forward="false" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
           <folding>
             <element signature="e#1556#1574#0" expanded="true" />
             <element signature="e#1636#2377#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="155" column="38" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
