@@ -59,15 +59,15 @@ using namespace std;
 void putHead()
 {
   //Output title and description
-  cout                                          << endl
-                                                << "Population Program"                  << endl
-                                                << "------------------------------------"<< endl
-                                                << endl;
+  cout << endl
+       << "Population Program"                  << endl
+       << "------------------------------------"<< endl
+       << endl;
 
   cout << "Research and enter the populations"  << endl
        << "of California's three most populous" << endl
        << "cities, each rounded to the nearest" << endl
-       << "thousand. When done, enter 0."        << endl
+       << "thousand. When done, enter 0."       << endl
        << endl;
 
   cout << "This program then calculates and"    << endl
