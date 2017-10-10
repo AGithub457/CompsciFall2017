@@ -208,6 +208,43 @@ clean: CMakeFiles/Pr07a-Vac-Agopian-Armand.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Pr08b-Leap-Agopian-Armand.dir
+
+# All Build rule for target.
+CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/all:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/depend
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=29,30 "Built target Pr08b-Leap-Agopian-Armand"
+.PHONY : CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/all
+
+# Include target in all.
+all: CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/rule
+
+# Convenience name for target.
+Pr08b-Leap-Agopian-Armand: CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/rule
+
+.PHONY : Pr08b-Leap-Agopian-Armand
+
+# clean rule for target.
+CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/clean:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/clean
+.PHONY : CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Pr02a-Small.dir
 
 # All Build rule for target.

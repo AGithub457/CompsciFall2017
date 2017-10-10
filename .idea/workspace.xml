@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="CompSciFall2017" targetName="Pr07a-Vac-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr03a-Patient-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr04a-Temp-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr08a-Pop-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr04b-FV-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr05a-Client-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr07c-Int-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr06b-Avg-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr02a-Small" />
-      <config projectName="CompSciFall2017" targetName="Pr03b-Vote-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr02b-Hello-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr06b-Avg-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr07a-Vac-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr08b-Leap-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr07b-Timer-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr06c-Leap-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr06a-Tax-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr04b-FV-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr08a-Pop-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr04a-Temp-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr06c-Leap-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr02b-Hello-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr03a-Patient-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr03b-Vote-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr07c-Int-Agopian-Armand" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -29,9 +30,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fbd0d18-de64-427e-a52c-c9b3903cc38f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pr08b-Leap-Agopian-Armand.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CompSciFall2017.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/CompSciFall2017.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,35 +48,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pr08a-Pop-Agopian-Armand.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pr08a-Pop-Agopian-Armand.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
-              <caret line="164" column="4" lean-forward="false" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
+            <state relative-caret-position="331">
+              <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="50" />
               <folding>
                 <element signature="e#1556#1574#0" expanded="true" />
-                <element signature="e#1636#2377#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pr07c-Int-Agopian-Armand.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp">
+      <file leaf-file-name="Pr06c-Leap-Agopian-Armand.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pr06c-Leap-Agopian-Armand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="155" column="38" lean-forward="false" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="38" />
+            <state relative-caret-position="468">
+              <caret line="103" column="3" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="103" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pr08b-Leap-Agopian-Armand.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pr08b-Leap-Agopian-Armand.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pr08b-Leap-Agopian-Armand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="207">
+              <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+              <folding>
+                <element signature="e#1316#1335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,15 +103,16 @@
         <option value="$PROJECT_DIR$/src/Pr02b-Hello-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr06d-Test-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/this.cpp" />
-        <option value="$PROJECT_DIR$/src/Pr06c-Leap-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr07a-Vac-Agopian0Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr07a-Vac-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/Pr07c-Int-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr07b-Timer-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.bat" />
-        <option value="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp" />
+        <option value="$PROJECT_DIR$/src/Pr06c-Leap-Agopian-Armand.cpp" />
+        <option value="$PROJECT_DIR$/src/Pr08b-Leap-Agopian-Armand.cpp" />
       </list>
     </option>
   </component>
@@ -115,8 +122,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1910" />
     <option name="width" value="1942" />
     <option name="height" value="2092" />
   </component>
@@ -198,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pr08a-Pop-Agopian-Armand">
+  <component name="RunManager" selected="Application.Pr08b-Leap-Agopian-Armand">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
@@ -244,7 +251,10 @@
     <configuration name="Pr08a-Pop-Agopian-Armand" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSciFall2017" TARGET_NAME="Pr08a-Pop-Agopian-Armand" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CompSciFall2017" RUN_TARGET_NAME="Pr08a-Pop-Agopian-Armand">
       <envs />
     </configuration>
-    <list size="15">
+    <configuration name="Pr08b-Leap-Agopian-Armand" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSciFall2017" TARGET_NAME="Pr08b-Leap-Agopian-Armand" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CompSciFall2017" RUN_TARGET_NAME="Pr08b-Leap-Agopian-Armand">
+      <envs />
+    </configuration>
+    <list size="16">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pr02a-Small" />
       <item index="2" class="java.lang.String" itemvalue="Application.Pr02b-Hello-Agopian-Armand" />
@@ -260,6 +270,7 @@
       <item index="12" class="java.lang.String" itemvalue="Application.Pr07b-Timer-Agopian-Armand" />
       <item index="13" class="java.lang.String" itemvalue="Application.Pr07c-Int-Agopian-Armand" />
       <item index="14" class="java.lang.String" itemvalue="Application.Pr08a-Pop-Agopian-Armand" />
+      <item index="15" class="java.lang.String" itemvalue="Application.Pr08b-Leap-Agopian-Armand" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -299,7 +310,7 @@
       <workItem from="1507266241904" duration="194000" />
       <workItem from="1507266513741" duration="23000" />
       <workItem from="1507269572531" duration="191000" />
-      <workItem from="1507650180236" duration="96000" />
+      <workItem from="1507650180236" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="Initial fix for CLion">
       <created>1506323743463</created>
@@ -427,21 +438,56 @@
       <option name="project" value="LOCAL" />
       <updated>1507269721822</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Pr08b-Leap">
+      <created>1507650286161</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1507650286161</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Pr08a-Pop: Fix formatting">
+      <created>1507652379157</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652379157</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pr08b-Pop: Fix formatting">
+      <created>1507652857047</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652857047</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Pr08b-Leap">
+      <created>1507652874253</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652874253</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Pr08b-Leap">
+      <created>1507652883471</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1507652883471</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34459000" />
+    <option name="totallyTimeSpent" value="37073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="955" y="0" width="971" height="1046" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16906667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.347207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33515882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50186664" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.49813333" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33077765" sideWeight="0.49813333" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31872946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -449,7 +495,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41086957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33515882" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -518,7 +563,10 @@
     <MESSAGE value="Pr08a-Pop" />
     <MESSAGE value="Pr08a-Pop: Fixed negative condition error in while loop population" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Pr08a-Pop: Fix formatting" />
+    <MESSAGE value="Pr08b-Pop: Fix formatting" />
+    <MESSAGE value="Pr08b-Leap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pr08b-Leap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,13 +784,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr07a-Vac-Agopian0Armand.cpp" />
-    <entry file="file://$PROJECT_DIR$/src/Pr06c-Leap-Agopian-Armand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="117" column="44" lean-forward="false" selection-start-line="115" selection-start-column="6" selection-end-line="117" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr02b-Hello-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -806,17 +847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" column="4" lean-forward="false" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="4" />
-          <folding>
-            <element signature="e#1556#1574#0" expanded="true" />
-            <element signature="e#1636#2377#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,11 +859,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pr06c-Leap-Agopian-Armand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="103" column="3" lean-forward="true" selection-start-line="77" selection-start-column="2" selection-end-line="103" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr08b-Leap-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+          <folding>
+            <element signature="e#1316#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pr08a-Pop-Agopian-Armand.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="50" />
+          <folding>
+            <element signature="e#1556#1574#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

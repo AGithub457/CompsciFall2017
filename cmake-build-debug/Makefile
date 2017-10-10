@@ -163,6 +163,19 @@ Pr07a-Vac-Agopian-Armand/fast:
 .PHONY : Pr07a-Vac-Agopian-Armand/fast
 
 #=============================================================================
+# Target rules for targets named Pr08b-Leap-Agopian-Armand
+
+# Build rule for target.
+Pr08b-Leap-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr08b-Leap-Agopian-Armand
+.PHONY : Pr08b-Leap-Agopian-Armand
+
+# fast build rule for target.
+Pr08b-Leap-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build
+.PHONY : Pr08b-Leap-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr02a-Small
 
 # Build rule for target.
@@ -670,6 +683,33 @@ src/Pr08a-Pop-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/src/Pr08a-Pop-Agopian-Armand.cpp.s
 .PHONY : src/Pr08a-Pop-Agopian-Armand.cpp.s
 
+src/Pr08b-Leap-Agopian-Armand.o: src/Pr08b-Leap-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr08b-Leap-Agopian-Armand.o
+
+# target to build an object file
+src/Pr08b-Leap-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/src/Pr08b-Leap-Agopian-Armand.cpp.o
+.PHONY : src/Pr08b-Leap-Agopian-Armand.cpp.o
+
+src/Pr08b-Leap-Agopian-Armand.i: src/Pr08b-Leap-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr08b-Leap-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr08b-Leap-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/src/Pr08b-Leap-Agopian-Armand.cpp.i
+.PHONY : src/Pr08b-Leap-Agopian-Armand.cpp.i
+
+src/Pr08b-Leap-Agopian-Armand.s: src/Pr08b-Leap-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr08b-Leap-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr08b-Leap-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/src/Pr08b-Leap-Agopian-Armand.cpp.s
+.PHONY : src/Pr08b-Leap-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -681,6 +721,7 @@ help:
 	@echo "... Pr08a-Pop-Agopian-Armand"
 	@echo "... Pr07b-Timer-Agopian-Armand"
 	@echo "... Pr07a-Vac-Agopian-Armand"
+	@echo "... Pr08b-Leap-Agopian-Armand"
 	@echo "... Pr02a-Small"
 	@echo "... Pr02b-Hello-Agopian-Armand"
 	@echo "... Pr04a-Temp-Agopian-Armand"
@@ -734,6 +775,9 @@ help:
 	@echo "... src/Pr08a-Pop-Agopian-Armand.o"
 	@echo "... src/Pr08a-Pop-Agopian-Armand.i"
 	@echo "... src/Pr08a-Pop-Agopian-Armand.s"
+	@echo "... src/Pr08b-Leap-Agopian-Armand.o"
+	@echo "... src/Pr08b-Leap-Agopian-Armand.i"
+	@echo "... src/Pr08b-Leap-Agopian-Armand.s"
 .PHONY : help
 
 
