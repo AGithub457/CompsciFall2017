@@ -215,6 +215,19 @@ Pr04a-Temp-Agopian-Armand/fast:
 .PHONY : Pr04a-Temp-Agopian-Armand/fast
 
 #=============================================================================
+# Target rules for targets named Pr09a-Max-Agopian-Armand
+
+# Build rule for target.
+Pr09a-Max-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09a-Max-Agopian-Armand
+.PHONY : Pr09a-Max-Agopian-Armand
+
+# fast build rule for target.
+Pr09a-Max-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build.make CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build
+.PHONY : Pr09a-Max-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr03a-Patient-Agopian-Armand
 
 # Build rule for target.
@@ -291,6 +304,19 @@ Pr06b-Avg-Agopian-Armand: cmake_check_build_system
 Pr06b-Avg-Agopian-Armand/fast:
 	$(MAKE) -f CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build.make CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build
 .PHONY : Pr06b-Avg-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr09x-Size
+
+# Build rule for target.
+Pr09x-Size: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Size
+.PHONY : Pr09x-Size
+
+# fast build rule for target.
+Pr09x-Size/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/build
+.PHONY : Pr09x-Size/fast
 
 #=============================================================================
 # Target rules for targets named Pr06c-Leap-Agopian-Armand
@@ -710,6 +736,60 @@ src/Pr08b-Leap-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/src/Pr08b-Leap-Agopian-Armand.cpp.s
 .PHONY : src/Pr08b-Leap-Agopian-Armand.cpp.s
 
+src/Pr09a-Max-Agopian-Armand.o: src/Pr09a-Max-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr09a-Max-Agopian-Armand.o
+
+# target to build an object file
+src/Pr09a-Max-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build.make CMakeFiles/Pr09a-Max-Agopian-Armand.dir/src/Pr09a-Max-Agopian-Armand.cpp.o
+.PHONY : src/Pr09a-Max-Agopian-Armand.cpp.o
+
+src/Pr09a-Max-Agopian-Armand.i: src/Pr09a-Max-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr09a-Max-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr09a-Max-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build.make CMakeFiles/Pr09a-Max-Agopian-Armand.dir/src/Pr09a-Max-Agopian-Armand.cpp.i
+.PHONY : src/Pr09a-Max-Agopian-Armand.cpp.i
+
+src/Pr09a-Max-Agopian-Armand.s: src/Pr09a-Max-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr09a-Max-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr09a-Max-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build.make CMakeFiles/Pr09a-Max-Agopian-Armand.dir/src/Pr09a-Max-Agopian-Armand.cpp.s
+.PHONY : src/Pr09a-Max-Agopian-Armand.cpp.s
+
+src/Pr09x-Size.o: src/Pr09x-Size.cpp.o
+
+.PHONY : src/Pr09x-Size.o
+
+# target to build an object file
+src/Pr09x-Size.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/src/Pr09x-Size.cpp.o
+.PHONY : src/Pr09x-Size.cpp.o
+
+src/Pr09x-Size.i: src/Pr09x-Size.cpp.i
+
+.PHONY : src/Pr09x-Size.i
+
+# target to preprocess a source file
+src/Pr09x-Size.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/src/Pr09x-Size.cpp.i
+.PHONY : src/Pr09x-Size.cpp.i
+
+src/Pr09x-Size.s: src/Pr09x-Size.cpp.s
+
+.PHONY : src/Pr09x-Size.s
+
+# target to generate assembly for a file
+src/Pr09x-Size.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/src/Pr09x-Size.cpp.s
+.PHONY : src/Pr09x-Size.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -726,12 +806,14 @@ help:
 	@echo "... Pr02b-Hello-Agopian-Armand"
 	@echo "... Pr04a-Temp-Agopian-Armand"
 	@echo "... edit_cache"
+	@echo "... Pr09a-Max-Agopian-Armand"
 	@echo "... Pr03a-Patient-Agopian-Armand"
 	@echo "... Pr03b-Vote-Agopian-Armand"
 	@echo "... Pr06a-Tax-Agopian-Armand"
 	@echo "... Pr04b-FV-Agopian-Armand"
 	@echo "... Pr05a-Client-Agopian-Armand"
 	@echo "... Pr06b-Avg-Agopian-Armand"
+	@echo "... Pr09x-Size"
 	@echo "... Pr06c-Leap-Agopian-Armand"
 	@echo "... src/Pr02a-Small.o"
 	@echo "... src/Pr02a-Small.i"
@@ -778,6 +860,12 @@ help:
 	@echo "... src/Pr08b-Leap-Agopian-Armand.o"
 	@echo "... src/Pr08b-Leap-Agopian-Armand.i"
 	@echo "... src/Pr08b-Leap-Agopian-Armand.s"
+	@echo "... src/Pr09a-Max-Agopian-Armand.o"
+	@echo "... src/Pr09a-Max-Agopian-Armand.i"
+	@echo "... src/Pr09a-Max-Agopian-Armand.s"
+	@echo "... src/Pr09x-Size.o"
+	@echo "... src/Pr09x-Size.i"
+	@echo "... src/Pr09x-Size.s"
 .PHONY : help
 
 

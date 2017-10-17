@@ -55,11 +55,13 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Pr02a-Small.dir/DependInfo.cmake"
   "CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr04a-Temp-Agopian-Armand.dir/DependInfo.cmake"
+  "CMakeFiles/Pr09a-Max-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr06a-Tax-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr04b-FV-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr05a-Client-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/DependInfo.cmake"
+  "CMakeFiles/Pr09x-Size.dir/DependInfo.cmake"
   "CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/DependInfo.cmake"
   )
