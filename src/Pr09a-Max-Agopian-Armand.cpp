@@ -32,6 +32,7 @@
 //Preprocessor Directives
 #include <iomanip>
 #include <iostream>
+#include <limits>
 #include <string>
 
 using namespace std;
@@ -46,4 +47,114 @@ int main()
 {
   //Call level one functions
   putHead();
+
+  procData();
+}
+
+//Level One Functions
+void putHead()
+{
+  cout << endl
+       << "Maximum Program"                  << endl
+       << "--------------------------------" << endl
+       << endl
+       << "This program demonstrates the"    << endl
+       << "maximum capacity of positive"     << endl
+       << "short integers."                  << endl
+       << endl
+       << "Enter positive integers that are" << endl
+       << "less than or equal to"            << endl
+       << SHRT_MAX << ". To quit, enter 0."  << endl;
+}
+
+void procData()
+{
+  //Process data: Get, validate, accumulate, and count
+  //numbers, then call a function to output footings
+
+  //Declare Variables
+  short   num;  //Number (input)
+  short   sum;  //Total  (accumulated)
+  short count;  //Count  (counted)
+
+  //Initialize Variables
+  sum   = 0;
+  count = 0;
+
+  //Get and validate number, accumulate count
+  while(true)
+  {
+    cout << "Number ? ";
+    cin >> num;
+
+    if(cin.fail())
+    {
+      cout << "Error: Not a number        \a" << endl;
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    else if(cin.peek() != '\n')
+    {
+      cout << "Error: Not a short integer \a" << endl;
+      cin.clear();
+      cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+    else if(num < 0)
+    {
+      cout << "Error: Negative            \a" << endl;
+    }
+    else if(num == 0)
+    {
+      break;
+    }
+    else
+    {
+      sum += num;
+      count++;
+    }
+  }
+
+  calcAvg(sum, count);
+}
+
+//Level two functions
+void calcAvg(short sum, short count)
+{
+  //Validate statistics and output footings
+
+  //Declare Variables
+  string msg;  //Message
+
+  float avg;   //Average
+
+  //Format Output
+  cout << fixed << showpoint << setprecision(1);
+
+  //Validate and output statistics
+  if(count == 0)
+  {
+    msg =  "Warning: count is zero";
+    msg += ", so average set to zero \a";
+
+    avg = 0.0;
+  }
+  else if(sum < 0)
+  {
+    msg =  "Warning: sum overflowed";
+    msg += ", so average set to zero \a";
+
+    avg = 0.0;
+  }
+  else
+  {
+    avg = (float)sum / count;
+    msg = "Done";
+  }
+
+  cout << endl
+       << "Sum    : " << sum   << endl
+       << "Count  : " << count << endl
+       << "Avergae: " << avg   << endl
+       << endl
+                      << msg << endl;
 }
