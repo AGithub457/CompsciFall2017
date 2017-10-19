@@ -34,6 +34,7 @@
 #include <iostream>
 #include <limits>
 #include <string>
+#include <climits>
 
 using namespace std;
 
