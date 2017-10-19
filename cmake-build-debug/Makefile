@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Pr09b-ASCII-Agopian-Armand
+
+# Build rule for target.
+Pr09b-ASCII-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09b-ASCII-Agopian-Armand
+.PHONY : Pr09b-ASCII-Agopian-Armand
+
+# fast build rule for target.
+Pr09b-ASCII-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build
+.PHONY : Pr09b-ASCII-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr07c-Int-Agopian-Armand
 
 # Build rule for target.
@@ -763,6 +776,33 @@ src/Pr09a-Max-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr09a-Max-Agopian-Armand.dir/build.make CMakeFiles/Pr09a-Max-Agopian-Armand.dir/src/Pr09a-Max-Agopian-Armand.cpp.s
 .PHONY : src/Pr09a-Max-Agopian-Armand.cpp.s
 
+src/Pr09b-ASCII-Agopian-Armand.o: src/Pr09b-ASCII-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.o
+
+# target to build an object file
+src/Pr09b-ASCII-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/src/Pr09b-ASCII-Agopian-Armand.cpp.o
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.cpp.o
+
+src/Pr09b-ASCII-Agopian-Armand.i: src/Pr09b-ASCII-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr09b-ASCII-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/src/Pr09b-ASCII-Agopian-Armand.cpp.i
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.cpp.i
+
+src/Pr09b-ASCII-Agopian-Armand.s: src/Pr09b-ASCII-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr09b-ASCII-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/src/Pr09b-ASCII-Agopian-Armand.cpp.s
+.PHONY : src/Pr09b-ASCII-Agopian-Armand.cpp.s
+
 src/Pr09x-Size.o: src/Pr09x-Size.cpp.o
 
 .PHONY : src/Pr09x-Size.o
@@ -797,6 +837,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Pr09b-ASCII-Agopian-Armand"
 	@echo "... Pr07c-Int-Agopian-Armand"
 	@echo "... Pr08a-Pop-Agopian-Armand"
 	@echo "... Pr07b-Timer-Agopian-Armand"
@@ -863,6 +904,9 @@ help:
 	@echo "... src/Pr09a-Max-Agopian-Armand.o"
 	@echo "... src/Pr09a-Max-Agopian-Armand.i"
 	@echo "... src/Pr09a-Max-Agopian-Armand.s"
+	@echo "... src/Pr09b-ASCII-Agopian-Armand.o"
+	@echo "... src/Pr09b-ASCII-Agopian-Armand.i"
+	@echo "... src/Pr09b-ASCII-Agopian-Armand.s"
 	@echo "... src/Pr09x-Size.o"
 	@echo "... src/Pr09x-Size.i"
 	@echo "... src/Pr09x-Size.s"
