@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProje
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Armand/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/cygdrive/c/Users/Armand/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,134 +111,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pr09x-Round2.cpp
+# Target rules for targets named Pr06c-Leap-Agopian-Armand
 
 # Build rule for target.
-Pr09x-Round2.cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round2.cpp
-.PHONY : Pr09x-Round2.cpp
+Pr06c-Leap-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr06c-Leap-Agopian-Armand
+.PHONY : Pr06c-Leap-Agopian-Armand
 
 # fast build rule for target.
-Pr09x-Round2.cpp/fast:
-	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/build
-.PHONY : Pr09x-Round2.cpp/fast
+Pr06c-Leap-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/build
+.PHONY : Pr06c-Leap-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr09b-ASCII-Agopian-Armand
+# Target rules for targets named Pr09x-Size
 
 # Build rule for target.
-Pr09b-ASCII-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr09b-ASCII-Agopian-Armand
-.PHONY : Pr09b-ASCII-Agopian-Armand
+Pr09x-Size: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Size
+.PHONY : Pr09x-Size
 
 # fast build rule for target.
-Pr09b-ASCII-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build
-.PHONY : Pr09b-ASCII-Agopian-Armand/fast
+Pr09x-Size/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/build
+.PHONY : Pr09x-Size/fast
 
 #=============================================================================
-# Target rules for targets named Pr07c-Int-Agopian-Armand
+# Target rules for targets named Pr05a-Client-Agopian-Armand
 
 # Build rule for target.
-Pr07c-Int-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr07c-Int-Agopian-Armand
-.PHONY : Pr07c-Int-Agopian-Armand
+Pr05a-Client-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr05a-Client-Agopian-Armand
+.PHONY : Pr05a-Client-Agopian-Armand
 
 # fast build rule for target.
-Pr07c-Int-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr07c-Int-Agopian-Armand.dir/build.make CMakeFiles/Pr07c-Int-Agopian-Armand.dir/build
-.PHONY : Pr07c-Int-Agopian-Armand/fast
+Pr05a-Client-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr05a-Client-Agopian-Armand.dir/build.make CMakeFiles/Pr05a-Client-Agopian-Armand.dir/build
+.PHONY : Pr05a-Client-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr08a-Pop-Agopian-Armand
+# Target rules for targets named Pr03b-Vote-Agopian-Armand
 
 # Build rule for target.
-Pr08a-Pop-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr08a-Pop-Agopian-Armand
-.PHONY : Pr08a-Pop-Agopian-Armand
+Pr03b-Vote-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr03b-Vote-Agopian-Armand
+.PHONY : Pr03b-Vote-Agopian-Armand
 
 # fast build rule for target.
-Pr08a-Pop-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build
-.PHONY : Pr08a-Pop-Agopian-Armand/fast
+Pr03b-Vote-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build.make CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build
+.PHONY : Pr03b-Vote-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr07b-Timer-Agopian-Armand
+# Target rules for targets named Pr06b-Avg-Agopian-Armand
 
 # Build rule for target.
-Pr07b-Timer-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr07b-Timer-Agopian-Armand
-.PHONY : Pr07b-Timer-Agopian-Armand
+Pr06b-Avg-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr06b-Avg-Agopian-Armand
+.PHONY : Pr06b-Avg-Agopian-Armand
 
 # fast build rule for target.
-Pr07b-Timer-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build
-.PHONY : Pr07b-Timer-Agopian-Armand/fast
+Pr06b-Avg-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build.make CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build
+.PHONY : Pr06b-Avg-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr07a-Vac-Agopian-Armand
+# Target rules for targets named Pr03a-Patient-Agopian-Armand
 
 # Build rule for target.
-Pr07a-Vac-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr07a-Vac-Agopian-Armand
-.PHONY : Pr07a-Vac-Agopian-Armand
+Pr03a-Patient-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr03a-Patient-Agopian-Armand
+.PHONY : Pr03a-Patient-Agopian-Armand
 
 # fast build rule for target.
-Pr07a-Vac-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr07a-Vac-Agopian-Armand.dir/build.make CMakeFiles/Pr07a-Vac-Agopian-Armand.dir/build
-.PHONY : Pr07a-Vac-Agopian-Armand/fast
-
-#=============================================================================
-# Target rules for targets named Pr08b-Leap-Agopian-Armand
-
-# Build rule for target.
-Pr08b-Leap-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr08b-Leap-Agopian-Armand
-.PHONY : Pr08b-Leap-Agopian-Armand
-
-# fast build rule for target.
-Pr08b-Leap-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build
-.PHONY : Pr08b-Leap-Agopian-Armand/fast
-
-#=============================================================================
-# Target rules for targets named Pr02a-Small
-
-# Build rule for target.
-Pr02a-Small: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr02a-Small
-.PHONY : Pr02a-Small
-
-# fast build rule for target.
-Pr02a-Small/fast:
-	$(MAKE) -f CMakeFiles/Pr02a-Small.dir/build.make CMakeFiles/Pr02a-Small.dir/build
-.PHONY : Pr02a-Small/fast
-
-#=============================================================================
-# Target rules for targets named Pr02b-Hello-Agopian-Armand
-
-# Build rule for target.
-Pr02b-Hello-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr02b-Hello-Agopian-Armand
-.PHONY : Pr02b-Hello-Agopian-Armand
-
-# fast build rule for target.
-Pr02b-Hello-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build.make CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build
-.PHONY : Pr02b-Hello-Agopian-Armand/fast
-
-#=============================================================================
-# Target rules for targets named Pr09x-Round1.cpp
-
-# Build rule for target.
-Pr09x-Round1.cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round1.cpp
-.PHONY : Pr09x-Round1.cpp
-
-# fast build rule for target.
-Pr09x-Round1.cpp/fast:
-	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/build
-.PHONY : Pr09x-Round1.cpp/fast
+Pr03a-Patient-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/build.make CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/build
+.PHONY : Pr03a-Patient-Agopian-Armand/fast
 
 #=============================================================================
 # Target rules for targets named Pr04a-Temp-Agopian-Armand
@@ -267,30 +215,17 @@ Pr09a-Max-Agopian-Armand/fast:
 .PHONY : Pr09a-Max-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr03a-Patient-Agopian-Armand
+# Target rules for targets named Pr09x-Round1.cpp
 
 # Build rule for target.
-Pr03a-Patient-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr03a-Patient-Agopian-Armand
-.PHONY : Pr03a-Patient-Agopian-Armand
+Pr09x-Round1.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round1.cpp
+.PHONY : Pr09x-Round1.cpp
 
 # fast build rule for target.
-Pr03a-Patient-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/build.make CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/build
-.PHONY : Pr03a-Patient-Agopian-Armand/fast
-
-#=============================================================================
-# Target rules for targets named Pr03b-Vote-Agopian-Armand
-
-# Build rule for target.
-Pr03b-Vote-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr03b-Vote-Agopian-Armand
-.PHONY : Pr03b-Vote-Agopian-Armand
-
-# fast build rule for target.
-Pr03b-Vote-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build.make CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build
-.PHONY : Pr03b-Vote-Agopian-Armand/fast
+Pr09x-Round1.cpp/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/build
+.PHONY : Pr09x-Round1.cpp/fast
 
 #=============================================================================
 # Target rules for targets named Pr06a-Tax-Agopian-Armand
@@ -306,6 +241,58 @@ Pr06a-Tax-Agopian-Armand/fast:
 .PHONY : Pr06a-Tax-Agopian-Armand/fast
 
 #=============================================================================
+# Target rules for targets named Pr02b-Hello-Agopian-Armand
+
+# Build rule for target.
+Pr02b-Hello-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr02b-Hello-Agopian-Armand
+.PHONY : Pr02b-Hello-Agopian-Armand
+
+# fast build rule for target.
+Pr02b-Hello-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build.make CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build
+.PHONY : Pr02b-Hello-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr02a-Small
+
+# Build rule for target.
+Pr02a-Small: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr02a-Small
+.PHONY : Pr02a-Small
+
+# fast build rule for target.
+Pr02a-Small/fast:
+	$(MAKE) -f CMakeFiles/Pr02a-Small.dir/build.make CMakeFiles/Pr02a-Small.dir/build
+.PHONY : Pr02a-Small/fast
+
+#=============================================================================
+# Target rules for targets named Pr08b-Leap-Agopian-Armand
+
+# Build rule for target.
+Pr08b-Leap-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr08b-Leap-Agopian-Armand
+.PHONY : Pr08b-Leap-Agopian-Armand
+
+# fast build rule for target.
+Pr08b-Leap-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/build
+.PHONY : Pr08b-Leap-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr07a-Vac-Agopian-Armand
+
+# Build rule for target.
+Pr07a-Vac-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr07a-Vac-Agopian-Armand
+.PHONY : Pr07a-Vac-Agopian-Armand
+
+# fast build rule for target.
+Pr07a-Vac-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr07a-Vac-Agopian-Armand.dir/build.make CMakeFiles/Pr07a-Vac-Agopian-Armand.dir/build
+.PHONY : Pr07a-Vac-Agopian-Armand/fast
+
+#=============================================================================
 # Target rules for targets named Pr04b-FV-Agopian-Armand
 
 # Build rule for target.
@@ -319,56 +306,82 @@ Pr04b-FV-Agopian-Armand/fast:
 .PHONY : Pr04b-FV-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr05a-Client-Agopian-Armand
+# Target rules for targets named Pr07b-Timer-Agopian-Armand
 
 # Build rule for target.
-Pr05a-Client-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr05a-Client-Agopian-Armand
-.PHONY : Pr05a-Client-Agopian-Armand
+Pr07b-Timer-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr07b-Timer-Agopian-Armand
+.PHONY : Pr07b-Timer-Agopian-Armand
 
 # fast build rule for target.
-Pr05a-Client-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr05a-Client-Agopian-Armand.dir/build.make CMakeFiles/Pr05a-Client-Agopian-Armand.dir/build
-.PHONY : Pr05a-Client-Agopian-Armand/fast
+Pr07b-Timer-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build.make CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/build
+.PHONY : Pr07b-Timer-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr06b-Avg-Agopian-Armand
+# Target rules for targets named Pr08a-Pop-Agopian-Armand
 
 # Build rule for target.
-Pr06b-Avg-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr06b-Avg-Agopian-Armand
-.PHONY : Pr06b-Avg-Agopian-Armand
+Pr08a-Pop-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr08a-Pop-Agopian-Armand
+.PHONY : Pr08a-Pop-Agopian-Armand
 
 # fast build rule for target.
-Pr06b-Avg-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build.make CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/build
-.PHONY : Pr06b-Avg-Agopian-Armand/fast
+Pr08a-Pop-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build.make CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/build
+.PHONY : Pr08a-Pop-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr09x-Size
+# Target rules for targets named Pr07c-Int-Agopian-Armand
 
 # Build rule for target.
-Pr09x-Size: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Size
-.PHONY : Pr09x-Size
+Pr07c-Int-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr07c-Int-Agopian-Armand
+.PHONY : Pr07c-Int-Agopian-Armand
 
 # fast build rule for target.
-Pr09x-Size/fast:
-	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/build
-.PHONY : Pr09x-Size/fast
+Pr07c-Int-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr07c-Int-Agopian-Armand.dir/build.make CMakeFiles/Pr07c-Int-Agopian-Armand.dir/build
+.PHONY : Pr07c-Int-Agopian-Armand/fast
 
 #=============================================================================
-# Target rules for targets named Pr06c-Leap-Agopian-Armand
+# Target rules for targets named Pr10a-Elec-Agopian-Armand.cpp
 
 # Build rule for target.
-Pr06c-Leap-Agopian-Armand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr06c-Leap-Agopian-Armand
-.PHONY : Pr06c-Leap-Agopian-Armand
+Pr10a-Elec-Agopian-Armand.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr10a-Elec-Agopian-Armand.cpp
+.PHONY : Pr10a-Elec-Agopian-Armand.cpp
 
 # fast build rule for target.
-Pr06c-Leap-Agopian-Armand/fast:
-	$(MAKE) -f CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/build.make CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/build
-.PHONY : Pr06c-Leap-Agopian-Armand/fast
+Pr10a-Elec-Agopian-Armand.cpp/fast:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build
+.PHONY : Pr10a-Elec-Agopian-Armand.cpp/fast
+
+#=============================================================================
+# Target rules for targets named Pr09b-ASCII-Agopian-Armand
+
+# Build rule for target.
+Pr09b-ASCII-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09b-ASCII-Agopian-Armand
+.PHONY : Pr09b-ASCII-Agopian-Armand
+
+# fast build rule for target.
+Pr09b-ASCII-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build
+.PHONY : Pr09b-ASCII-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr09x-Round2.cpp
+
+# Build rule for target.
+Pr09x-Round2.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round2.cpp
+.PHONY : Pr09x-Round2.cpp
+
+# fast build rule for target.
+Pr09x-Round2.cpp/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/build
+.PHONY : Pr09x-Round2.cpp/fast
 
 src/Pr02a-Small.o: src/Pr02a-Small.cpp.o
 
@@ -910,34 +923,62 @@ src/Pr09x-Size.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/src/Pr09x-Size.cpp.s
 .PHONY : src/Pr09x-Size.cpp.s
 
+src/Pr10a-Elec-Agopian-Armand.cpp.o: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
+
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.o
+
+# target to build an object file
+src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
+
+src/Pr10a-Elec-Agopian-Armand.cpp.i: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
+
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.i
+
+# target to preprocess a source file
+src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
+
+src/Pr10a-Elec-Agopian-Armand.cpp.s: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
+
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.s
+
+# target to generate assembly for a file
+src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Pr06c-Leap-Agopian-Armand"
+	@echo "... Pr09x-Size"
+	@echo "... Pr05a-Client-Agopian-Armand"
+	@echo "... Pr03b-Vote-Agopian-Armand"
+	@echo "... Pr06b-Avg-Agopian-Armand"
+	@echo "... Pr03a-Patient-Agopian-Armand"
+	@echo "... Pr04a-Temp-Agopian-Armand"
+	@echo "... Pr09a-Max-Agopian-Armand"
+	@echo "... Pr09x-Round1.cpp"
+	@echo "... Pr06a-Tax-Agopian-Armand"
+	@echo "... Pr02b-Hello-Agopian-Armand"
+	@echo "... Pr02a-Small"
+	@echo "... Pr08b-Leap-Agopian-Armand"
+	@echo "... Pr07a-Vac-Agopian-Armand"
+	@echo "... Pr04b-FV-Agopian-Armand"
+	@echo "... edit_cache"
+	@echo "... Pr07b-Timer-Agopian-Armand"
+	@echo "... Pr08a-Pop-Agopian-Armand"
+	@echo "... Pr07c-Int-Agopian-Armand"
+	@echo "... Pr10a-Elec-Agopian-Armand.cpp"
+	@echo "... Pr09b-ASCII-Agopian-Armand"
 	@echo "... rebuild_cache"
 	@echo "... Pr09x-Round2.cpp"
-	@echo "... Pr09b-ASCII-Agopian-Armand"
-	@echo "... Pr07c-Int-Agopian-Armand"
-	@echo "... Pr08a-Pop-Agopian-Armand"
-	@echo "... Pr07b-Timer-Agopian-Armand"
-	@echo "... Pr07a-Vac-Agopian-Armand"
-	@echo "... Pr08b-Leap-Agopian-Armand"
-	@echo "... Pr02a-Small"
-	@echo "... Pr02b-Hello-Agopian-Armand"
-	@echo "... Pr09x-Round1.cpp"
-	@echo "... Pr04a-Temp-Agopian-Armand"
-	@echo "... edit_cache"
-	@echo "... Pr09a-Max-Agopian-Armand"
-	@echo "... Pr03a-Patient-Agopian-Armand"
-	@echo "... Pr03b-Vote-Agopian-Armand"
-	@echo "... Pr06a-Tax-Agopian-Armand"
-	@echo "... Pr04b-FV-Agopian-Armand"
-	@echo "... Pr05a-Client-Agopian-Armand"
-	@echo "... Pr06b-Avg-Agopian-Armand"
-	@echo "... Pr09x-Size"
-	@echo "... Pr06c-Leap-Agopian-Armand"
 	@echo "... src/Pr02a-Small.o"
 	@echo "... src/Pr02a-Small.i"
 	@echo "... src/Pr02a-Small.s"
@@ -998,6 +1039,9 @@ help:
 	@echo "... src/Pr09x-Size.o"
 	@echo "... src/Pr09x-Size.i"
 	@echo "... src/Pr09x-Size.s"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.o"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.i"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.s"
 .PHONY : help
 
 
