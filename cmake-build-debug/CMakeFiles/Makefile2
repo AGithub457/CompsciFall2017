@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProje
 CMAKE_BINARY_DIR = "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"
 
 #=============================================================================
+# Target rules for target CMakeFiles/Pr09x-Round2.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/Pr09x-Round2.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=37,38 "Built target Pr09x-Round2.cpp"
+.PHONY : CMakeFiles/Pr09x-Round2.cpp.dir/all
+
+# Include target in all.
+all: CMakeFiles/Pr09x-Round2.cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pr09x-Round2.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pr09x-Round2.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Pr09x-Round2.cpp.dir/rule
+
+# Convenience name for target.
+Pr09x-Round2.cpp: CMakeFiles/Pr09x-Round2.cpp.dir/rule
+
+.PHONY : Pr09x-Round2.cpp
+
+# clean rule for target.
+CMakeFiles/Pr09x-Round2.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/clean
+.PHONY : CMakeFiles/Pr09x-Round2.cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Pr09x-Round2.cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir
 
 # All Build rule for target.
@@ -352,6 +389,43 @@ CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Pr09x-Round1.cpp.dir
+
+# All Build rule for target.
+CMakeFiles/Pr09x-Round1.cpp.dir/all:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/depend
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=35,36 "Built target Pr09x-Round1.cpp"
+.PHONY : CMakeFiles/Pr09x-Round1.cpp.dir/all
+
+# Include target in all.
+all: CMakeFiles/Pr09x-Round1.cpp.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pr09x-Round1.cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pr09x-Round1.cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Pr09x-Round1.cpp.dir/rule
+
+# Convenience name for target.
+Pr09x-Round1.cpp: CMakeFiles/Pr09x-Round1.cpp.dir/rule
+
+.PHONY : Pr09x-Round1.cpp
+
+# clean rule for target.
+CMakeFiles/Pr09x-Round1.cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/clean
+.PHONY : CMakeFiles/Pr09x-Round1.cpp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Pr09x-Round1.cpp.dir/clean
 
 .PHONY : clean
 
@@ -658,7 +732,7 @@ clean: CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/clean
 CMakeFiles/Pr09x-Size.dir/all:
 	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/depend
 	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=35,36 "Built target Pr09x-Size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=39,40 "Built target Pr09x-Size"
 .PHONY : CMakeFiles/Pr09x-Size.dir/all
 
 # Include target in all.

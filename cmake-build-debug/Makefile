@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Pr09x-Round2.cpp
+
+# Build rule for target.
+Pr09x-Round2.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round2.cpp
+.PHONY : Pr09x-Round2.cpp
+
+# fast build rule for target.
+Pr09x-Round2.cpp/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/build
+.PHONY : Pr09x-Round2.cpp/fast
+
+#=============================================================================
 # Target rules for targets named Pr09b-ASCII-Agopian-Armand
 
 # Build rule for target.
@@ -213,6 +226,19 @@ Pr02b-Hello-Agopian-Armand: cmake_check_build_system
 Pr02b-Hello-Agopian-Armand/fast:
 	$(MAKE) -f CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build.make CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build
 .PHONY : Pr02b-Hello-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr09x-Round1.cpp
+
+# Build rule for target.
+Pr09x-Round1.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr09x-Round1.cpp
+.PHONY : Pr09x-Round1.cpp
+
+# fast build rule for target.
+Pr09x-Round1.cpp/fast:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/build
+.PHONY : Pr09x-Round1.cpp/fast
 
 #=============================================================================
 # Target rules for targets named Pr04a-Temp-Agopian-Armand
@@ -803,6 +829,60 @@ src/Pr09b-ASCII-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/build.make CMakeFiles/Pr09b-ASCII-Agopian-Armand.dir/src/Pr09b-ASCII-Agopian-Armand.cpp.s
 .PHONY : src/Pr09b-ASCII-Agopian-Armand.cpp.s
 
+src/Pr09x-Round1.cpp.o: src/Pr09x-Round1.cpp.cpp.o
+
+.PHONY : src/Pr09x-Round1.cpp.o
+
+# target to build an object file
+src/Pr09x-Round1.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/src/Pr09x-Round1.cpp.cpp.o
+.PHONY : src/Pr09x-Round1.cpp.cpp.o
+
+src/Pr09x-Round1.cpp.i: src/Pr09x-Round1.cpp.cpp.i
+
+.PHONY : src/Pr09x-Round1.cpp.i
+
+# target to preprocess a source file
+src/Pr09x-Round1.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/src/Pr09x-Round1.cpp.cpp.i
+.PHONY : src/Pr09x-Round1.cpp.cpp.i
+
+src/Pr09x-Round1.cpp.s: src/Pr09x-Round1.cpp.cpp.s
+
+.PHONY : src/Pr09x-Round1.cpp.s
+
+# target to generate assembly for a file
+src/Pr09x-Round1.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr09x-Round1.cpp.dir/build.make CMakeFiles/Pr09x-Round1.cpp.dir/src/Pr09x-Round1.cpp.cpp.s
+.PHONY : src/Pr09x-Round1.cpp.cpp.s
+
+src/Pr09x-Round2.cpp.o: src/Pr09x-Round2.cpp.cpp.o
+
+.PHONY : src/Pr09x-Round2.cpp.o
+
+# target to build an object file
+src/Pr09x-Round2.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/src/Pr09x-Round2.cpp.cpp.o
+.PHONY : src/Pr09x-Round2.cpp.cpp.o
+
+src/Pr09x-Round2.cpp.i: src/Pr09x-Round2.cpp.cpp.i
+
+.PHONY : src/Pr09x-Round2.cpp.i
+
+# target to preprocess a source file
+src/Pr09x-Round2.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/src/Pr09x-Round2.cpp.cpp.i
+.PHONY : src/Pr09x-Round2.cpp.cpp.i
+
+src/Pr09x-Round2.cpp.s: src/Pr09x-Round2.cpp.cpp.s
+
+.PHONY : src/Pr09x-Round2.cpp.s
+
+# target to generate assembly for a file
+src/Pr09x-Round2.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr09x-Round2.cpp.dir/build.make CMakeFiles/Pr09x-Round2.cpp.dir/src/Pr09x-Round2.cpp.cpp.s
+.PHONY : src/Pr09x-Round2.cpp.cpp.s
+
 src/Pr09x-Size.o: src/Pr09x-Size.cpp.o
 
 .PHONY : src/Pr09x-Size.o
@@ -837,6 +917,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Pr09x-Round2.cpp"
 	@echo "... Pr09b-ASCII-Agopian-Armand"
 	@echo "... Pr07c-Int-Agopian-Armand"
 	@echo "... Pr08a-Pop-Agopian-Armand"
@@ -845,6 +926,7 @@ help:
 	@echo "... Pr08b-Leap-Agopian-Armand"
 	@echo "... Pr02a-Small"
 	@echo "... Pr02b-Hello-Agopian-Armand"
+	@echo "... Pr09x-Round1.cpp"
 	@echo "... Pr04a-Temp-Agopian-Armand"
 	@echo "... edit_cache"
 	@echo "... Pr09a-Max-Agopian-Armand"
@@ -907,6 +989,12 @@ help:
 	@echo "... src/Pr09b-ASCII-Agopian-Armand.o"
 	@echo "... src/Pr09b-ASCII-Agopian-Armand.i"
 	@echo "... src/Pr09b-ASCII-Agopian-Armand.s"
+	@echo "... src/Pr09x-Round1.cpp.o"
+	@echo "... src/Pr09x-Round1.cpp.i"
+	@echo "... src/Pr09x-Round1.cpp.s"
+	@echo "... src/Pr09x-Round2.cpp.o"
+	@echo "... src/Pr09x-Round2.cpp.i"
+	@echo "... src/Pr09x-Round2.cpp.s"
 	@echo "... src/Pr09x-Size.o"
 	@echo "... src/Pr09x-Size.i"
 	@echo "... src/Pr09x-Size.s"
