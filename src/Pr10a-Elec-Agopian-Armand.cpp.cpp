@@ -16,9 +16,10 @@
  *          output, functions, and the switch-case
  *          construct.
  *
- * Initial
- * Problem: 
+ * Problem: Create an input file that contains
+ *          electricity bill data.
  *
- * Next
- * Problem: 
+ *          Write a program that processes data in
+ *          that file as described in the putHead
+ *          function.
  */
