@@ -923,32 +923,32 @@ src/Pr09x-Size.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr09x-Size.dir/build.make CMakeFiles/Pr09x-Size.dir/src/Pr09x-Size.cpp.s
 .PHONY : src/Pr09x-Size.cpp.s
 
-src/Pr10a-Elec-Agopian-Armand.cpp.o: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
+src/Pr10a-Elec-Agopian-Armand.o: src/Pr10a-Elec-Agopian-Armand.cpp.o
 
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.o
+.PHONY : src/Pr10a-Elec-Agopian-Armand.o
 
 # target to build an object file
-src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o:
-	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.o
+src/Pr10a-Elec-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.o
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.o
 
-src/Pr10a-Elec-Agopian-Armand.cpp.i: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
+src/Pr10a-Elec-Agopian-Armand.i: src/Pr10a-Elec-Agopian-Armand.cpp.i
 
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.i
+.PHONY : src/Pr10a-Elec-Agopian-Armand.i
 
 # target to preprocess a source file
-src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i:
-	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.i
+src/Pr10a-Elec-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.i
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.i
 
-src/Pr10a-Elec-Agopian-Armand.cpp.s: src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
+src/Pr10a-Elec-Agopian-Armand.s: src/Pr10a-Elec-Agopian-Armand.cpp.s
 
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.s
+.PHONY : src/Pr10a-Elec-Agopian-Armand.s
 
 # target to generate assembly for a file
-src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s:
-	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
-.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.cpp.s
+src/Pr10a-Elec-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.s
+.PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.s
 
 # Help Target
 help:
@@ -1039,9 +1039,9 @@ help:
 	@echo "... src/Pr09x-Size.o"
 	@echo "... src/Pr09x-Size.i"
 	@echo "... src/Pr09x-Size.s"
-	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.o"
-	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.i"
-	@echo "... src/Pr10a-Elec-Agopian-Armand.cpp.s"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.o"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.i"
+	@echo "... src/Pr10a-Elec-Agopian-Armand.s"
 .PHONY : help
 
 

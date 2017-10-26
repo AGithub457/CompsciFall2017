@@ -980,7 +980,10 @@
 		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr09x-Size.cpp">
 			<Option target="Pr09x-Size"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10a-Elec-Agopian-Armand.cpp.cpp">
+		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10a-Elec-Agopian-Armand.cpp">
+			<Option target="Pr10a-Elec-Agopian-Armand.cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10a-Elec-Agopian-Armand.in">
 			<Option target="Pr10a-Elec-Agopian-Armand.cpp"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/CMakeLists.txt">
