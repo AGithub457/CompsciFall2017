@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Pr10b-Randhawa-Sandeep
+
+# Build rule for target.
+Pr10b-Randhawa-Sandeep: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr10b-Randhawa-Sandeep
+.PHONY : Pr10b-Randhawa-Sandeep
+
+# fast build rule for target.
+Pr10b-Randhawa-Sandeep/fast:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build
+.PHONY : Pr10b-Randhawa-Sandeep/fast
+
+#=============================================================================
 # Target rules for targets named Pr06c-Leap-Agopian-Armand
 
 # Build rule for target.
@@ -252,6 +265,19 @@ Pr02b-Hello-Agopian-Armand: cmake_check_build_system
 Pr02b-Hello-Agopian-Armand/fast:
 	$(MAKE) -f CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build.make CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/build
 .PHONY : Pr02b-Hello-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr10b-Water-Agopian-Armand
+
+# Build rule for target.
+Pr10b-Water-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr10b-Water-Agopian-Armand
+.PHONY : Pr10b-Water-Agopian-Armand
+
+# fast build rule for target.
+Pr10b-Water-Agopian-Armand/fast:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build
+.PHONY : Pr10b-Water-Agopian-Armand/fast
 
 #=============================================================================
 # Target rules for targets named Pr02a-Small
@@ -950,12 +976,67 @@ src/Pr10a-Elec-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.s
 .PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.s
 
+src/Pr10b-Randhawa-Sandeep.o: src/Pr10b-Randhawa-Sandeep.cpp.o
+
+.PHONY : src/Pr10b-Randhawa-Sandeep.o
+
+# target to build an object file
+src/Pr10b-Randhawa-Sandeep.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.o
+.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.o
+
+src/Pr10b-Randhawa-Sandeep.i: src/Pr10b-Randhawa-Sandeep.cpp.i
+
+.PHONY : src/Pr10b-Randhawa-Sandeep.i
+
+# target to preprocess a source file
+src/Pr10b-Randhawa-Sandeep.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.i
+.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.i
+
+src/Pr10b-Randhawa-Sandeep.s: src/Pr10b-Randhawa-Sandeep.cpp.s
+
+.PHONY : src/Pr10b-Randhawa-Sandeep.s
+
+# target to generate assembly for a file
+src/Pr10b-Randhawa-Sandeep.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.s
+.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.s
+
+src/Pr10b-Water-Agopian-Armand.o: src/Pr10b-Water-Agopian-Armand.cpp.o
+
+.PHONY : src/Pr10b-Water-Agopian-Armand.o
+
+# target to build an object file
+src/Pr10b-Water-Agopian-Armand.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/src/Pr10b-Water-Agopian-Armand.cpp.o
+.PHONY : src/Pr10b-Water-Agopian-Armand.cpp.o
+
+src/Pr10b-Water-Agopian-Armand.i: src/Pr10b-Water-Agopian-Armand.cpp.i
+
+.PHONY : src/Pr10b-Water-Agopian-Armand.i
+
+# target to preprocess a source file
+src/Pr10b-Water-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/src/Pr10b-Water-Agopian-Armand.cpp.i
+.PHONY : src/Pr10b-Water-Agopian-Armand.cpp.i
+
+src/Pr10b-Water-Agopian-Armand.s: src/Pr10b-Water-Agopian-Armand.cpp.s
+
+.PHONY : src/Pr10b-Water-Agopian-Armand.s
+
+# target to generate assembly for a file
+src/Pr10b-Water-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/src/Pr10b-Water-Agopian-Armand.cpp.s
+.PHONY : src/Pr10b-Water-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Pr10b-Randhawa-Sandeep"
 	@echo "... Pr06c-Leap-Agopian-Armand"
 	@echo "... Pr09x-Size"
 	@echo "... Pr05a-Client-Agopian-Armand"
@@ -967,11 +1048,12 @@ help:
 	@echo "... Pr09x-Round1.cpp"
 	@echo "... Pr06a-Tax-Agopian-Armand"
 	@echo "... Pr02b-Hello-Agopian-Armand"
+	@echo "... Pr10b-Water-Agopian-Armand"
 	@echo "... Pr02a-Small"
 	@echo "... Pr08b-Leap-Agopian-Armand"
 	@echo "... Pr07a-Vac-Agopian-Armand"
-	@echo "... Pr04b-FV-Agopian-Armand"
 	@echo "... edit_cache"
+	@echo "... Pr04b-FV-Agopian-Armand"
 	@echo "... Pr07b-Timer-Agopian-Armand"
 	@echo "... Pr08a-Pop-Agopian-Armand"
 	@echo "... Pr07c-Int-Agopian-Armand"
@@ -1042,6 +1124,12 @@ help:
 	@echo "... src/Pr10a-Elec-Agopian-Armand.o"
 	@echo "... src/Pr10a-Elec-Agopian-Armand.i"
 	@echo "... src/Pr10a-Elec-Agopian-Armand.s"
+	@echo "... src/Pr10b-Randhawa-Sandeep.o"
+	@echo "... src/Pr10b-Randhawa-Sandeep.i"
+	@echo "... src/Pr10b-Randhawa-Sandeep.s"
+	@echo "... src/Pr10b-Water-Agopian-Armand.o"
+	@echo "... src/Pr10b-Water-Agopian-Armand.i"
+	@echo "... src/Pr10b-Water-Agopian-Armand.s"
 .PHONY : help
 
 

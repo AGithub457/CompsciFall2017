@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProje
 CMAKE_BINARY_DIR = "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"
 
 #=============================================================================
+# Target rules for target CMakeFiles/Pr10b-Randhawa-Sandeep.dir
+
+# All Build rule for target.
+CMakeFiles/Pr10b-Randhawa-Sandeep.dir/all:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/depend
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=43,44 "Built target Pr10b-Randhawa-Sandeep"
+.PHONY : CMakeFiles/Pr10b-Randhawa-Sandeep.dir/all
+
+# Include target in all.
+all: CMakeFiles/Pr10b-Randhawa-Sandeep.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pr10b-Randhawa-Sandeep.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pr10b-Randhawa-Sandeep.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Pr10b-Randhawa-Sandeep.dir/rule
+
+# Convenience name for target.
+Pr10b-Randhawa-Sandeep: CMakeFiles/Pr10b-Randhawa-Sandeep.dir/rule
+
+.PHONY : Pr10b-Randhawa-Sandeep
+
+# clean rule for target.
+CMakeFiles/Pr10b-Randhawa-Sandeep.dir/clean:
+	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/clean
+.PHONY : CMakeFiles/Pr10b-Randhawa-Sandeep.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Pr10b-Randhawa-Sandeep.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Pr06c-Leap-Agopian-Armand.dir
 
 # All Build rule for target.
@@ -463,6 +500,43 @@ CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Pr02b-Hello-Agopian-Armand.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Pr10b-Water-Agopian-Armand.dir
+
+# All Build rule for target.
+CMakeFiles/Pr10b-Water-Agopian-Armand.dir/all:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/depend
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" --progress-num=45,46 "Built target Pr10b-Water-Agopian-Armand"
+.PHONY : CMakeFiles/Pr10b-Water-Agopian-Armand.dir/all
+
+# Include target in all.
+all: CMakeFiles/Pr10b-Water-Agopian-Armand.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pr10b-Water-Agopian-Armand.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pr10b-Water-Agopian-Armand.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Pr10b-Water-Agopian-Armand.dir/rule
+
+# Convenience name for target.
+Pr10b-Water-Agopian-Armand: CMakeFiles/Pr10b-Water-Agopian-Armand.dir/rule
+
+.PHONY : Pr10b-Water-Agopian-Armand
+
+# clean rule for target.
+CMakeFiles/Pr10b-Water-Agopian-Armand.dir/clean:
+	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/clean
+.PHONY : CMakeFiles/Pr10b-Water-Agopian-Armand.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Pr10b-Water-Agopian-Armand.dir/clean
 
 .PHONY : clean
 

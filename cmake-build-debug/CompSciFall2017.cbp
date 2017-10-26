@@ -17,6 +17,48 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Pr10b-Randhawa-Sandeep">
+				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr10b-Randhawa-Sandeep.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10b-Randhawa-Sandeep"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr10b-Randhawa-Sandeep/fast">
+				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr10b-Randhawa-Sandeep.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10b-Randhawa-Sandeep/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Pr06c-Leap-Agopian-Armand">
 				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr06c-Leap-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
@@ -479,6 +521,48 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Pr10b-Water-Agopian-Armand">
+				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr10b-Water-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10b-Water-Agopian-Armand"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr10b-Water-Agopian-Armand/fast">
+				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr10b-Water-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr10b-Water-Agopian-Armand/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Pr02a-Small">
 				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr02a-Small.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
@@ -605,6 +689,16 @@
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Pr04b-FV-Agopian-Armand">
 				<Option output="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr04b-FV-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
@@ -642,16 +736,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pr04b-FV-Agopian-Armand/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Armand/Google\ Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -985,6 +1069,15 @@
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10a-Elec-Agopian-Armand.in">
 			<Option target="Pr10a-Elec-Agopian-Armand.cpp"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10b-Randhawa-Sandeep.cpp">
+			<Option target="Pr10b-Randhawa-Sandeep"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10b-Water-Agopian-Armand.cpp">
+			<Option target="Pr10b-Water-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr10b-Water-Agopian-Armand.in">
+			<Option target="Pr10b-Water-Agopian-Armand"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
