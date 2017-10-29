@@ -2,29 +2,29 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="CompSciFall2017" targetName="Pr07a-Vac-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr10a-Elec-Agopian-Armand.cpp" />
-      <config projectName="CompSciFall2017" targetName="Pr02b-Hello-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr09x-Round2.cpp" />
+      <config projectName="CompSciFall2017" targetName="Pr03a-Patient-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr09b-ASCII-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr08a-Pop-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr04b-FV-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr10b-Water-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr09x-Round2.cpp" />
+      <config projectName="CompSciFall2017" targetName="Pr04a-Temp-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr10a-Elec-Agopian-Armand.cpp" />
       <config projectName="CompSciFall2017" targetName="Pr05a-Client-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr08b-Leap-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr06b-Avg-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr09x-Size" />
-      <config projectName="CompSciFall2017" targetName="Pr03a-Patient-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr09a-Max-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr10b-Randhawa-Sandeep" />
+      <config projectName="CompSciFall2017" targetName="Pr10b-Water-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr09x-Size" />
       <config projectName="CompSciFall2017" targetName="Pr03b-Vote-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr07a-Vac-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr02a-Small" />
-      <config projectName="CompSciFall2017" targetName="Pr06a-Tax-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr02b-Hello-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr09x-Round1.cpp" />
       <config projectName="CompSciFall2017" targetName="Pr07b-Timer-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr09a-Max-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr07c-Int-Agopian-Armand" />
       <config projectName="CompSciFall2017" targetName="Pr06c-Leap-Agopian-Armand" />
-      <config projectName="CompSciFall2017" targetName="Pr04a-Temp-Agopian-Armand" />
+      <config projectName="CompSciFall2017" targetName="Pr06a-Tax-Agopian-Armand" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -37,12 +37,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fbd0d18-de64-427e-a52c-c9b3903cc38f" name="Default" comment="">
+    <list default="true" id="9fbd0d18-de64-427e-a52c-c9b3903cc38f" name="Default" comment="Pr20b-Water">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.cpp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.in" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
@@ -63,14 +62,14 @@
       <file leaf-file-name="Pr10b-Water-Agopian-Armand.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="230" column="10" lean-forward="false" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
+            <state relative-caret-position="174">
+              <caret line="196" column="28" lean-forward="false" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
               <folding>
                 <element signature="e#852#870#0" expanded="true" />
                 <element signature="e#1527#2365#0" expanded="false" />
-                <element signature="e#2367#2750#0" expanded="false" />
                 <element signature="e#2752#2947#0" expanded="false" />
-                <element signature="e#4614#4760#0" expanded="false" />
+                <element signature="e#4615#4761#0" expanded="false" />
+                <element signature="e#4763#5342#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,6 +93,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/Pr10a-Elec-Agopian-Armand.cpp.cpp" />
         <option value="$PROJECT_DIR$/src/Pr10a-Elec-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.in" />
-        <option value="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.cpp" />
         <option value="$PROJECT_DIR$/src/Pr10b-Randhawa-Sandeep.cpp" />
+        <option value="$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.cpp" />
       </list>
     </option>
   </component>
@@ -366,7 +366,8 @@
       <workItem from="1508547354063" duration="41000" />
       <workItem from="1508856981740" duration="7419000" />
       <workItem from="1509031539311" duration="7878000" />
-      <workItem from="1509044783900" duration="397000" />
+      <workItem from="1509044783900" duration="459000" />
+      <workItem from="1509255611918" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="Initial fix for CLion">
       <created>1506323743463</created>
@@ -662,16 +663,30 @@
       <option name="project" value="LOCAL" />
       <updated>1509031649036</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Pr20b-Water">
+      <created>1509045212867</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1509045212867</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Pr10b-Water">
+      <created>1509256794413</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1509256794413</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67561000" />
+    <option name="totallyTimeSpent" value="68770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30186668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50186664" order="8" side_tool="true" content_ui="tabs" />
@@ -761,7 +776,9 @@
     <MESSAGE value="Fix errors" />
     <MESSAGE value="Pr09x" />
     <MESSAGE value="Pr10a-Elec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pr10a-Elec" />
+    <MESSAGE value="Pr20b-Water" />
+    <MESSAGE value="Pr10b-Water" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pr10b-Water" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,6 +1062,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pr10b-Randhawa-Sandeep.cpp" />
     <entry file="file://$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1061,24 +1079,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pr10b-Randhawa-Sandeep.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="291" column="1" lean-forward="true" selection-start-line="291" selection-start-column="1" selection-end-line="291" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pr10b-Water-Agopian-Armand.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="230" column="10" lean-forward="false" selection-start-line="230" selection-start-column="10" selection-end-line="230" selection-end-column="10" />
+        <state relative-caret-position="174">
+          <caret line="196" column="28" lean-forward="false" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
           <folding>
             <element signature="e#852#870#0" expanded="true" />
             <element signature="e#1527#2365#0" expanded="false" />
-            <element signature="e#2367#2750#0" expanded="false" />
             <element signature="e#2752#2947#0" expanded="false" />
-            <element signature="e#4614#4760#0" expanded="false" />
+            <element signature="e#4615#4761#0" expanded="false" />
+            <element signature="e#4763#5342#0" expanded="false" />
           </folding>
         </state>
       </provider>

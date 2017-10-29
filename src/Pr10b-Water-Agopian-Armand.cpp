@@ -194,7 +194,7 @@ void procData(string ifname, string ofname)
       cost = chrg + (22 * rate1) + ((unit - 22) * rate2);
     }
 
-    //Set month abbreviaion
+    //Set month abbreviation
     mabbr = setAbbr(mint);
 
     //Write results to output file
