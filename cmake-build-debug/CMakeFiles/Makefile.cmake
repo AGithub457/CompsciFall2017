@@ -47,11 +47,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Pr10b-Randhawa-Sandeep.dir/DependInfo.cmake"
   "CMakeFiles/Pr06c-Leap-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr09x-Size.dir/DependInfo.cmake"
   "CMakeFiles/Pr05a-Client-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/DependInfo.cmake"
+  "CMakeFiles/Pr11x-Score.dir/DependInfo.cmake"
   "CMakeFiles/Pr06b-Avg-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr03a-Patient-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr04a-Temp-Agopian-Armand.dir/DependInfo.cmake"

@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pr10b-Randhawa-Sandeep
-
-# Build rule for target.
-Pr10b-Randhawa-Sandeep: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pr10b-Randhawa-Sandeep
-.PHONY : Pr10b-Randhawa-Sandeep
-
-# fast build rule for target.
-Pr10b-Randhawa-Sandeep/fast:
-	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build
-.PHONY : Pr10b-Randhawa-Sandeep/fast
-
-#=============================================================================
 # Target rules for targets named Pr06c-Leap-Agopian-Armand
 
 # Build rule for target.
@@ -174,6 +161,19 @@ Pr03b-Vote-Agopian-Armand: cmake_check_build_system
 Pr03b-Vote-Agopian-Armand/fast:
 	$(MAKE) -f CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build.make CMakeFiles/Pr03b-Vote-Agopian-Armand.dir/build
 .PHONY : Pr03b-Vote-Agopian-Armand/fast
+
+#=============================================================================
+# Target rules for targets named Pr11x-Score
+
+# Build rule for target.
+Pr11x-Score: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Pr11x-Score
+.PHONY : Pr11x-Score
+
+# fast build rule for target.
+Pr11x-Score/fast:
+	$(MAKE) -f CMakeFiles/Pr11x-Score.dir/build.make CMakeFiles/Pr11x-Score.dir/build
+.PHONY : Pr11x-Score/fast
 
 #=============================================================================
 # Target rules for targets named Pr06b-Avg-Agopian-Armand
@@ -976,33 +976,6 @@ src/Pr10a-Elec-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/build.make CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir/src/Pr10a-Elec-Agopian-Armand.cpp.s
 .PHONY : src/Pr10a-Elec-Agopian-Armand.cpp.s
 
-src/Pr10b-Randhawa-Sandeep.o: src/Pr10b-Randhawa-Sandeep.cpp.o
-
-.PHONY : src/Pr10b-Randhawa-Sandeep.o
-
-# target to build an object file
-src/Pr10b-Randhawa-Sandeep.cpp.o:
-	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.o
-.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.o
-
-src/Pr10b-Randhawa-Sandeep.i: src/Pr10b-Randhawa-Sandeep.cpp.i
-
-.PHONY : src/Pr10b-Randhawa-Sandeep.i
-
-# target to preprocess a source file
-src/Pr10b-Randhawa-Sandeep.cpp.i:
-	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.i
-.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.i
-
-src/Pr10b-Randhawa-Sandeep.s: src/Pr10b-Randhawa-Sandeep.cpp.s
-
-.PHONY : src/Pr10b-Randhawa-Sandeep.s
-
-# target to generate assembly for a file
-src/Pr10b-Randhawa-Sandeep.cpp.s:
-	$(MAKE) -f CMakeFiles/Pr10b-Randhawa-Sandeep.dir/build.make CMakeFiles/Pr10b-Randhawa-Sandeep.dir/src/Pr10b-Randhawa-Sandeep.cpp.s
-.PHONY : src/Pr10b-Randhawa-Sandeep.cpp.s
-
 src/Pr10b-Water-Agopian-Armand.o: src/Pr10b-Water-Agopian-Armand.cpp.o
 
 .PHONY : src/Pr10b-Water-Agopian-Armand.o
@@ -1030,17 +1003,44 @@ src/Pr10b-Water-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles/Pr10b-Water-Agopian-Armand.dir/build.make CMakeFiles/Pr10b-Water-Agopian-Armand.dir/src/Pr10b-Water-Agopian-Armand.cpp.s
 .PHONY : src/Pr10b-Water-Agopian-Armand.cpp.s
 
+src/Pr11x-Score.o: src/Pr11x-Score.cpp.o
+
+.PHONY : src/Pr11x-Score.o
+
+# target to build an object file
+src/Pr11x-Score.cpp.o:
+	$(MAKE) -f CMakeFiles/Pr11x-Score.dir/build.make CMakeFiles/Pr11x-Score.dir/src/Pr11x-Score.cpp.o
+.PHONY : src/Pr11x-Score.cpp.o
+
+src/Pr11x-Score.i: src/Pr11x-Score.cpp.i
+
+.PHONY : src/Pr11x-Score.i
+
+# target to preprocess a source file
+src/Pr11x-Score.cpp.i:
+	$(MAKE) -f CMakeFiles/Pr11x-Score.dir/build.make CMakeFiles/Pr11x-Score.dir/src/Pr11x-Score.cpp.i
+.PHONY : src/Pr11x-Score.cpp.i
+
+src/Pr11x-Score.s: src/Pr11x-Score.cpp.s
+
+.PHONY : src/Pr11x-Score.s
+
+# target to generate assembly for a file
+src/Pr11x-Score.cpp.s:
+	$(MAKE) -f CMakeFiles/Pr11x-Score.dir/build.make CMakeFiles/Pr11x-Score.dir/src/Pr11x-Score.cpp.s
+.PHONY : src/Pr11x-Score.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... Pr10b-Randhawa-Sandeep"
 	@echo "... Pr06c-Leap-Agopian-Armand"
 	@echo "... Pr09x-Size"
 	@echo "... Pr05a-Client-Agopian-Armand"
 	@echo "... Pr03b-Vote-Agopian-Armand"
+	@echo "... Pr11x-Score"
 	@echo "... Pr06b-Avg-Agopian-Armand"
 	@echo "... Pr03a-Patient-Agopian-Armand"
 	@echo "... Pr04a-Temp-Agopian-Armand"
@@ -1124,12 +1124,12 @@ help:
 	@echo "... src/Pr10a-Elec-Agopian-Armand.o"
 	@echo "... src/Pr10a-Elec-Agopian-Armand.i"
 	@echo "... src/Pr10a-Elec-Agopian-Armand.s"
-	@echo "... src/Pr10b-Randhawa-Sandeep.o"
-	@echo "... src/Pr10b-Randhawa-Sandeep.i"
-	@echo "... src/Pr10b-Randhawa-Sandeep.s"
 	@echo "... src/Pr10b-Water-Agopian-Armand.o"
 	@echo "... src/Pr10b-Water-Agopian-Armand.i"
 	@echo "... src/Pr10b-Water-Agopian-Armand.s"
+	@echo "... src/Pr11x-Score.o"
+	@echo "... src/Pr11x-Score.i"
+	@echo "... src/Pr11x-Score.s"
 .PHONY : help
 
 
