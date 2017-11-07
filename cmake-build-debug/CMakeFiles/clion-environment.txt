@@ -1,4 +1,4 @@
-ToolSet: 2.9.0@C:\cygwin64
+ToolSet: 15.0@C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional
 Options: 
 
 Options:

@@ -169,7 +169,41 @@ void procData(string ifname)
   {
     for(j = i + 1; j < count; j++)
     {
+      if(prof[i] < prof[j])
+      {
+        stemp = comp[i];
+        comp[i] = comp[j];
+        comp[j] = stemp;
 
+        itemp = rev[i];
+        rev[i] = rev[j];
+        rev[j] = itemp;
+
+        itemp = prof[i];
+        prof[i] = prof[j];
+        prof[j] = itemp;
+      }
     }
   }
+
+  //Output headings
+  cout << endl
+       << "Company      Revenue  Profit" << endl
+       << "-----------  -------  ------" << endl
+       << endl;
+
+  //Output array values
+  for(i = 0; i < count; i++)
+  {
+    cout << setw(11) << left  << comp[i] << "  ";
+    cout << setw(7)  << right << rev[i]  << "  ";
+    cout << setw(6)  << right << prof[i] << endl;
+  }
+
+  //Calculate and output total
+  cout << endl;
+  cout << setw(11) << left  << "Total" << "  ";
+  cout << setw(7)  << right << totrev  << "  ";
+  cout << setw(6)  << right << totprof << endl;
+  cout << endl;
 }
