@@ -1083,6 +1083,50 @@
 					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Pr11b-RevProf-Agopian-Armand">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr11b-RevProf-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 Pr11b-RevProf-Agopian-Armand"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pr11b-RevProf-Agopian-Armand/fast">
+				<Option output="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/Pr11b-RevProf-Agopian-Armand.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.11.25503\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 Pr11b-RevProf-Agopian-Armand/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1171,6 +1215,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr11a-RevProf-Agopian-Armand.in">
 			<Option target="Pr11a-RevProf-Agopian-Armand"/>
+		</Unit>
+		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr11b-RevProf-Agopian-Armand.cpp">
+			<Option target="Pr11b-RevProf-Agopian-Armand"/>
 		</Unit>
 		<Unit filename="C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/src/Pr11x-Score.cpp">
 			<Option target="Pr11x-Score"/>

@@ -423,6 +423,19 @@ Pr11x-Score\fast:
 	$(MAKE) -f CMakeFiles\Pr11x-Score.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11x-Score.dir\build
 .PHONY : Pr11x-Score\fast
 
+#=============================================================================
+# Target rules for targets named Pr11b-RevProf-Agopian-Armand
+
+# Build rule for target.
+Pr11b-RevProf-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pr11b-RevProf-Agopian-Armand
+.PHONY : Pr11b-RevProf-Agopian-Armand
+
+# fast build rule for target.
+Pr11b-RevProf-Agopian-Armand\fast:
+	$(MAKE) -f CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\build
+.PHONY : Pr11b-RevProf-Agopian-Armand\fast
+
 src\Pr02a-Small.obj: src\Pr02a-Small.cpp.obj
 
 .PHONY : src\Pr02a-Small.obj
@@ -1044,6 +1057,33 @@ src\Pr11a-RevProf-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles\Pr11a-RevProf-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11a-RevProf-Agopian-Armand.dir\src\Pr11a-RevProf-Agopian-Armand.cpp.s
 .PHONY : src\Pr11a-RevProf-Agopian-Armand.cpp.s
 
+src\Pr11b-RevProf-Agopian-Armand.obj: src\Pr11b-RevProf-Agopian-Armand.cpp.obj
+
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.obj
+
+# target to build an object file
+src\Pr11b-RevProf-Agopian-Armand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\src\Pr11b-RevProf-Agopian-Armand.cpp.obj
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.cpp.obj
+
+src\Pr11b-RevProf-Agopian-Armand.i: src\Pr11b-RevProf-Agopian-Armand.cpp.i
+
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.i
+
+# target to preprocess a source file
+src\Pr11b-RevProf-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\src\Pr11b-RevProf-Agopian-Armand.cpp.i
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.cpp.i
+
+src\Pr11b-RevProf-Agopian-Armand.s: src\Pr11b-RevProf-Agopian-Armand.cpp.s
+
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.s
+
+# target to generate assembly for a file
+src\Pr11b-RevProf-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr11b-RevProf-Agopian-Armand.dir\src\Pr11b-RevProf-Agopian-Armand.cpp.s
+.PHONY : src\Pr11b-RevProf-Agopian-Armand.cpp.s
+
 src\Pr11x-Score.obj: src\Pr11x-Score.cpp.obj
 
 .PHONY : src\Pr11x-Score.obj
@@ -1102,6 +1142,7 @@ help:
 	@echo ... Pr09x-Round1.cpp
 	@echo ... Pr10b-Water-Agopian-Armand
 	@echo ... Pr11x-Score
+	@echo ... Pr11b-RevProf-Agopian-Armand
 	@echo ... rebuild_cache
 	@echo ... src/Pr02a-Small.obj
 	@echo ... src/Pr02a-Small.i
@@ -1172,6 +1213,9 @@ help:
 	@echo ... src/Pr11a-RevProf-Agopian-Armand.obj
 	@echo ... src/Pr11a-RevProf-Agopian-Armand.i
 	@echo ... src/Pr11a-RevProf-Agopian-Armand.s
+	@echo ... src/Pr11b-RevProf-Agopian-Armand.obj
+	@echo ... src/Pr11b-RevProf-Agopian-Armand.i
+	@echo ... src/Pr11b-RevProf-Agopian-Armand.s
 	@echo ... src/Pr11x-Score.obj
 	@echo ... src/Pr11x-Score.i
 	@echo ... src/Pr11x-Score.s
