@@ -214,7 +214,7 @@ void putFoot(int count, int totrev, int totprof)
   cout << setw(11) << left  << "Total" << "    ";
   cout << setw(9)  << right << totrev  << "  ";
   cout << setw(11)  << right << totprof << endl;
-  cout << setw(11) << left  << "Average" << "    ";
+  cout << setw(11) << left  << "Average" << "        ";
   cout << setw(9)  << right << (double)totrev / count  << "  ";
   cout << setw(11)  << right << (double)totprof / count << endl;
   cout << endl;
