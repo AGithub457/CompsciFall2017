@@ -24,4 +24,5 @@ C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-bui
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr10b-Water-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr11x-Score.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr11b-RevProf-Agopian-Armand.dir
+C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr12a-Weather-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/rebuild_cache.dir
