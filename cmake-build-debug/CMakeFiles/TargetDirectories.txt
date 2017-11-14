@@ -17,6 +17,7 @@ C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-bui
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr09a-Max-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr08a-Pop-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr07b-Timer-Agopian-Armand.dir
+C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr12b-Weather-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr07c-Int-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr08b-Leap-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr09x-Size.dir

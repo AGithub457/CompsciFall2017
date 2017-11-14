@@ -346,6 +346,19 @@ Pr07b-Timer-Agopian-Armand\fast:
 .PHONY : Pr07b-Timer-Agopian-Armand\fast
 
 #=============================================================================
+# Target rules for targets named Pr12b-Weather-Agopian-Armand
+
+# Build rule for target.
+Pr12b-Weather-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pr12b-Weather-Agopian-Armand
+.PHONY : Pr12b-Weather-Agopian-Armand
+
+# fast build rule for target.
+Pr12b-Weather-Agopian-Armand\fast:
+	$(MAKE) -f CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build
+.PHONY : Pr12b-Weather-Agopian-Armand\fast
+
+#=============================================================================
 # Target rules for targets named Pr07c-Int-Agopian-Armand
 
 # Build rule for target.
@@ -1151,6 +1164,33 @@ src\Pr12a-Weather-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles\Pr12a-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12a-Weather-Agopian-Armand.dir\src\Pr12a-Weather-Agopian-Armand.cpp.s
 .PHONY : src\Pr12a-Weather-Agopian-Armand.cpp.s
 
+src\Pr12b-Weather-Agopian-Armand.obj: src\Pr12b-Weather-Agopian-Armand.cpp.obj
+
+.PHONY : src\Pr12b-Weather-Agopian-Armand.obj
+
+# target to build an object file
+src\Pr12b-Weather-Agopian-Armand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\src\Pr12b-Weather-Agopian-Armand.cpp.obj
+.PHONY : src\Pr12b-Weather-Agopian-Armand.cpp.obj
+
+src\Pr12b-Weather-Agopian-Armand.i: src\Pr12b-Weather-Agopian-Armand.cpp.i
+
+.PHONY : src\Pr12b-Weather-Agopian-Armand.i
+
+# target to preprocess a source file
+src\Pr12b-Weather-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\src\Pr12b-Weather-Agopian-Armand.cpp.i
+.PHONY : src\Pr12b-Weather-Agopian-Armand.cpp.i
+
+src\Pr12b-Weather-Agopian-Armand.s: src\Pr12b-Weather-Agopian-Armand.cpp.s
+
+.PHONY : src\Pr12b-Weather-Agopian-Armand.s
+
+# target to generate assembly for a file
+src\Pr12b-Weather-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\src\Pr12b-Weather-Agopian-Armand.cpp.s
+.PHONY : src\Pr12b-Weather-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1176,6 +1216,7 @@ help:
 	@echo ... Pr09a-Max-Agopian-Armand
 	@echo ... Pr08a-Pop-Agopian-Armand
 	@echo ... Pr07b-Timer-Agopian-Armand
+	@echo ... Pr12b-Weather-Agopian-Armand
 	@echo ... Pr07c-Int-Agopian-Armand
 	@echo ... Pr08b-Leap-Agopian-Armand
 	@echo ... Pr09x-Size
@@ -1263,6 +1304,9 @@ help:
 	@echo ... src/Pr12a-Weather-Agopian-Armand.obj
 	@echo ... src/Pr12a-Weather-Agopian-Armand.i
 	@echo ... src/Pr12a-Weather-Agopian-Armand.s
+	@echo ... src/Pr12b-Weather-Agopian-Armand.obj
+	@echo ... src/Pr12b-Weather-Agopian-Armand.i
+	@echo ... src/Pr12b-Weather-Agopian-Armand.s
 .PHONY : help
 
 

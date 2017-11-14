@@ -63,6 +63,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Pr09a-Max-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr08a-Pop-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr07b-Timer-Agopian-Armand.dir/DependInfo.cmake"
+  "CMakeFiles/Pr12b-Weather-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr07c-Int-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr08b-Leap-Agopian-Armand.dir/DependInfo.cmake"
   "CMakeFiles/Pr09x-Size.dir/DependInfo.cmake"
