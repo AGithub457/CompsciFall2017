@@ -22,7 +22,7 @@
  *          From the weather array, output the
  *          data to the console.
  *
- * Submit: Just  source program file (.cpp)
+ * Submit: Just a source program file (.cpp)
  */
 
 //Preprocessor Directives
@@ -69,6 +69,9 @@ int main()
   ifname = getName();
 
   count = getData(ifname, w);
+
+  putData(count, w);
+  putFoot(count, w);
 
   return 0;
 }
@@ -140,15 +143,58 @@ int getData(string ifname, Weather w[])
     fin >> w[i].mint;
     fin >> w[i].rain;
     fin >> w[i].temp;
+
+    i++;
   }
+
+  fin.close();
+
+  count = i;
+
+  return count;
 }
 
 void putData(int count, Weather w[])
 {
+  //Header
+  cout << endl
+       << "Loc  Year  Mon   Rain    Temp" << endl
+       << "---  ----  ---  -----  ------" << endl
+       << endl;
 
+  cout << fixed << showpoint;
+
+  for(int i = 0; i < count; i++)
+  {
+    cout << setw(3) << w[i].loc << "  ";
+    cout << setw(4) << right << w[i].year << "  ";
+    cout << setw(3) << right << w[i].mint << "  ";
+    cout << setw(5) << right << setprecision(2)
+                             << w[i].rain << "  ";
+    cout << setw(6) << right << setprecision(1)
+                             << w[i].temp << endl;
+  }
 }
 
 void putFoot(int count, Weather w[])
 {
+  //Declare Variables
+  double totrain = 0;
+  double tottemp = 0;
 
+  //Calculate totals
+  for(int i = 0; i < count; i++)
+  {
+    totrain += w[i].rain;
+    tottemp += w[i].temp;
+  }
+
+  //Output totals
+  cout << endl;
+  cout << setw(16) << left << "Total";
+  cout << setw(5)  << right << setprecision(2)
+                            << totrain << "  ";
+  cout << setw(5)  << right << setprecision(1)
+                            << tottemp << endl;
+  cout << endl;
 }
