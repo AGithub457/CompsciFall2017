@@ -176,12 +176,12 @@ void sortData(int count, Weather w[])
         w[j] = t;
       }
 
-      if(w[i].year < w[j].year)
+      /*if(w[i].year < w[j].year)
       {
         t = w[i];
         w[i] = w[j];
         w[j] = t;
-      }
+      }*/
     }
   }
 }

@@ -462,6 +462,19 @@ Pr12a-Weather-Agopian-Armand\fast:
 	$(MAKE) -f CMakeFiles\Pr12a-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12a-Weather-Agopian-Armand.dir\build
 .PHONY : Pr12a-Weather-Agopian-Armand\fast
 
+#=============================================================================
+# Target rules for targets named Pr13a-Pres-Agopian-Armand
+
+# Build rule for target.
+Pr13a-Pres-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pr13a-Pres-Agopian-Armand
+.PHONY : Pr13a-Pres-Agopian-Armand
+
+# fast build rule for target.
+Pr13a-Pres-Agopian-Armand\fast:
+	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build
+.PHONY : Pr13a-Pres-Agopian-Armand\fast
+
 src\Pr02a-Small.obj: src\Pr02a-Small.cpp.obj
 
 .PHONY : src\Pr02a-Small.obj
@@ -1191,6 +1204,33 @@ src\Pr12b-Weather-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr12b-Weather-Agopian-Armand.dir\src\Pr12b-Weather-Agopian-Armand.cpp.s
 .PHONY : src\Pr12b-Weather-Agopian-Armand.cpp.s
 
+src\Pr13a-Pres-Agopian-Armand.obj: src\Pr13a-Pres-Agopian-Armand.cpp.obj
+
+.PHONY : src\Pr13a-Pres-Agopian-Armand.obj
+
+# target to build an object file
+src\Pr13a-Pres-Agopian-Armand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\src\Pr13a-Pres-Agopian-Armand.cpp.obj
+.PHONY : src\Pr13a-Pres-Agopian-Armand.cpp.obj
+
+src\Pr13a-Pres-Agopian-Armand.i: src\Pr13a-Pres-Agopian-Armand.cpp.i
+
+.PHONY : src\Pr13a-Pres-Agopian-Armand.i
+
+# target to preprocess a source file
+src\Pr13a-Pres-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\src\Pr13a-Pres-Agopian-Armand.cpp.i
+.PHONY : src\Pr13a-Pres-Agopian-Armand.cpp.i
+
+src\Pr13a-Pres-Agopian-Armand.s: src\Pr13a-Pres-Agopian-Armand.cpp.s
+
+.PHONY : src\Pr13a-Pres-Agopian-Armand.s
+
+# target to generate assembly for a file
+src\Pr13a-Pres-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\src\Pr13a-Pres-Agopian-Armand.cpp.s
+.PHONY : src\Pr13a-Pres-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1225,6 +1265,7 @@ help:
 	@echo ... Pr11x-Score
 	@echo ... Pr11b-RevProf-Agopian-Armand
 	@echo ... Pr12a-Weather-Agopian-Armand
+	@echo ... Pr13a-Pres-Agopian-Armand
 	@echo ... rebuild_cache
 	@echo ... src/Pr02a-Small.obj
 	@echo ... src/Pr02a-Small.i
@@ -1307,6 +1348,9 @@ help:
 	@echo ... src/Pr12b-Weather-Agopian-Armand.obj
 	@echo ... src/Pr12b-Weather-Agopian-Armand.i
 	@echo ... src/Pr12b-Weather-Agopian-Armand.s
+	@echo ... src/Pr13a-Pres-Agopian-Armand.obj
+	@echo ... src/Pr13a-Pres-Agopian-Armand.i
+	@echo ... src/Pr13a-Pres-Agopian-Armand.s
 .PHONY : help
 
 
