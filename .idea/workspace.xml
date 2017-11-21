@@ -43,14 +43,12 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Pr13a-Pres.in" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/Pr13b-Pres.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CompSciFall2017.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/CompSciFall2017.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/src/Pr12b-Weather-Agopian-Armand.cpp" afterPath="$PROJECT_DIR$/src/Pr12b-Weather-Agopian-Armand.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\.idea\shelf/" />
@@ -446,14 +444,7 @@
       <workItem from="1510848477023" duration="3778000" />
       <workItem from="1510852493892" duration="3177000" />
       <workItem from="1511279866708" duration="92000" />
-      <workItem from="1511280809780" duration="34000" />
-    </task>
-    <task id="LOCAL-00011" summary="Pr07b-Timer">
-      <created>1506832300034</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1506832300034</updated>
+      <workItem from="1511280809780" duration="75000" />
     </task>
     <task id="LOCAL-00012" summary="Pr07b-Timer: New balance logic">
       <created>1507174828033</created>
@@ -791,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510804231555</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Pr12b-Weather">
+      <created>1511280881632</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1511280881633</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105713000" />
+    <option name="totallyTimeSpent" value="105754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
@@ -898,10 +896,10 @@
     <MESSAGE value="Pr11b-RevProf" />
     <MESSAGE value="Pr11b-RevProf - Realign average" />
     <MESSAGE value="Pr12a-Weather" />
-    <MESSAGE value="Pr12b-Weather" />
     <MESSAGE value="Cleanup workspace" />
     <MESSAGE value="Cleanup workspace pt2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup workspace pt2" />
+    <MESSAGE value="Pr12b-Weather" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pr12b-Weather" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
