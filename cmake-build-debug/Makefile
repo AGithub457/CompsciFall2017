@@ -164,6 +164,19 @@ Pr06a-Tax-Agopian-Armand\fast:
 .PHONY : Pr06a-Tax-Agopian-Armand\fast
 
 #=============================================================================
+# Target rules for targets named Pr13b-Pres
+
+# Build rule for target.
+Pr13b-Pres: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pr13b-Pres
+.PHONY : Pr13b-Pres
+
+# fast build rule for target.
+Pr13b-Pres\fast:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\build
+.PHONY : Pr13b-Pres\fast
+
+#=============================================================================
 # Target rules for targets named Pr02b-Hello-Agopian-Armand
 
 # Build rule for target.
@@ -474,6 +487,19 @@ Pr13a-Pres-Agopian-Armand: cmake_check_build_system
 Pr13a-Pres-Agopian-Armand\fast:
 	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build
 .PHONY : Pr13a-Pres-Agopian-Armand\fast
+
+#=============================================================================
+# Target rules for targets named Pr14a-State-Agopian-Armand
+
+# Build rule for target.
+Pr14a-State-Agopian-Armand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Pr14a-State-Agopian-Armand
+.PHONY : Pr14a-State-Agopian-Armand
+
+# fast build rule for target.
+Pr14a-State-Agopian-Armand\fast:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\build
+.PHONY : Pr14a-State-Agopian-Armand\fast
 
 src\Pr02a-Small.obj: src\Pr02a-Small.cpp.obj
 
@@ -1231,6 +1257,60 @@ src\Pr13a-Pres-Agopian-Armand.cpp.s:
 	$(MAKE) -f CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\src\Pr13a-Pres-Agopian-Armand.cpp.s
 .PHONY : src\Pr13a-Pres-Agopian-Armand.cpp.s
 
+src\Pr13b-Pres-Agopian-Armand.obj: src\Pr13b-Pres-Agopian-Armand.cpp.obj
+
+.PHONY : src\Pr13b-Pres-Agopian-Armand.obj
+
+# target to build an object file
+src\Pr13b-Pres-Agopian-Armand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\src\Pr13b-Pres-Agopian-Armand.cpp.obj
+.PHONY : src\Pr13b-Pres-Agopian-Armand.cpp.obj
+
+src\Pr13b-Pres-Agopian-Armand.i: src\Pr13b-Pres-Agopian-Armand.cpp.i
+
+.PHONY : src\Pr13b-Pres-Agopian-Armand.i
+
+# target to preprocess a source file
+src\Pr13b-Pres-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\src\Pr13b-Pres-Agopian-Armand.cpp.i
+.PHONY : src\Pr13b-Pres-Agopian-Armand.cpp.i
+
+src\Pr13b-Pres-Agopian-Armand.s: src\Pr13b-Pres-Agopian-Armand.cpp.s
+
+.PHONY : src\Pr13b-Pres-Agopian-Armand.s
+
+# target to generate assembly for a file
+src\Pr13b-Pres-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\src\Pr13b-Pres-Agopian-Armand.cpp.s
+.PHONY : src\Pr13b-Pres-Agopian-Armand.cpp.s
+
+src\Pr14a-State-Agopian-Armand.obj: src\Pr14a-State-Agopian-Armand.cpp.obj
+
+.PHONY : src\Pr14a-State-Agopian-Armand.obj
+
+# target to build an object file
+src\Pr14a-State-Agopian-Armand.cpp.obj:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\src\Pr14a-State-Agopian-Armand.cpp.obj
+.PHONY : src\Pr14a-State-Agopian-Armand.cpp.obj
+
+src\Pr14a-State-Agopian-Armand.i: src\Pr14a-State-Agopian-Armand.cpp.i
+
+.PHONY : src\Pr14a-State-Agopian-Armand.i
+
+# target to preprocess a source file
+src\Pr14a-State-Agopian-Armand.cpp.i:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\src\Pr14a-State-Agopian-Armand.cpp.i
+.PHONY : src\Pr14a-State-Agopian-Armand.cpp.i
+
+src\Pr14a-State-Agopian-Armand.s: src\Pr14a-State-Agopian-Armand.cpp.s
+
+.PHONY : src\Pr14a-State-Agopian-Armand.s
+
+# target to generate assembly for a file
+src\Pr14a-State-Agopian-Armand.cpp.s:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\src\Pr14a-State-Agopian-Armand.cpp.s
+.PHONY : src\Pr14a-State-Agopian-Armand.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1241,6 +1321,7 @@ help:
 	@echo ... Pr02a-Small
 	@echo ... Pr10a-Elec-Agopian-Armand.cpp
 	@echo ... Pr06a-Tax-Agopian-Armand
+	@echo ... Pr13b-Pres
 	@echo ... Pr02b-Hello-Agopian-Armand
 	@echo ... Pr03a-Patient-Agopian-Armand
 	@echo ... Pr03b-Vote-Agopian-Armand
@@ -1266,6 +1347,7 @@ help:
 	@echo ... Pr11b-RevProf-Agopian-Armand
 	@echo ... Pr12a-Weather-Agopian-Armand
 	@echo ... Pr13a-Pres-Agopian-Armand
+	@echo ... Pr14a-State-Agopian-Armand
 	@echo ... rebuild_cache
 	@echo ... src/Pr02a-Small.obj
 	@echo ... src/Pr02a-Small.i
@@ -1351,6 +1433,12 @@ help:
 	@echo ... src/Pr13a-Pres-Agopian-Armand.obj
 	@echo ... src/Pr13a-Pres-Agopian-Armand.i
 	@echo ... src/Pr13a-Pres-Agopian-Armand.s
+	@echo ... src/Pr13b-Pres-Agopian-Armand.obj
+	@echo ... src/Pr13b-Pres-Agopian-Armand.i
+	@echo ... src/Pr13b-Pres-Agopian-Armand.s
+	@echo ... src/Pr14a-State-Agopian-Armand.obj
+	@echo ... src/Pr14a-State-Agopian-Armand.i
+	@echo ... src/Pr14a-State-Agopian-Armand.s
 .PHONY : help
 
 

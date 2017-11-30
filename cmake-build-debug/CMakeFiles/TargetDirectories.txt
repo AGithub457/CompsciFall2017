@@ -2,6 +2,7 @@ C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-bui
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr02a-Small.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr10a-Elec-Agopian-Armand.cpp.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr06a-Tax-Agopian-Armand.dir
+C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr13b-Pres.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr02b-Hello-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr03a-Patient-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr03b-Vote-Agopian-Armand.dir
@@ -27,4 +28,5 @@ C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-bui
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr11b-RevProf-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr12a-Weather-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr13a-Pres-Agopian-Armand.dir
+C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/Pr14a-State-Agopian-Armand.dir
 C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug/CMakeFiles/rebuild_cache.dir

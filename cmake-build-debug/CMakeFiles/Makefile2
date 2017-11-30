@@ -209,6 +209,43 @@ clean: CMakeFiles\Pr06a-Tax-Agopian-Armand.dir\clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Pr13b-Pres.dir
+
+# All Build rule for target.
+CMakeFiles\Pr13b-Pres.dir\all:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\depend
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" --progress-num=57,58 "Built target Pr13b-Pres"
+.PHONY : CMakeFiles\Pr13b-Pres.dir\all
+
+# Include target in all.
+all: CMakeFiles\Pr13b-Pres.dir\all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Pr13b-Pres.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\Pr13b-Pres.dir\rule
+
+# Convenience name for target.
+Pr13b-Pres: CMakeFiles\Pr13b-Pres.dir\rule
+
+.PHONY : Pr13b-Pres
+
+# clean rule for target.
+CMakeFiles\Pr13b-Pres.dir\clean:
+	$(MAKE) -f CMakeFiles\Pr13b-Pres.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr13b-Pres.dir\clean
+.PHONY : CMakeFiles\Pr13b-Pres.dir\clean
+
+# clean rule for target.
+clean: CMakeFiles\Pr13b-Pres.dir\clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Pr02b-Hello-Agopian-Armand.dir
 
 # All Build rule for target.
@@ -1093,6 +1130,43 @@ CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\clean:
 
 # clean rule for target.
 clean: CMakeFiles\Pr13a-Pres-Agopian-Armand.dir\clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Pr14a-State-Agopian-Armand.dir
+
+# All Build rule for target.
+CMakeFiles\Pr14a-State-Agopian-Armand.dir\all:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\depend
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" --progress-num=59,60 "Built target Pr14a-State-Agopian-Armand"
+.PHONY : CMakeFiles\Pr14a-State-Agopian-Armand.dir\all
+
+# Include target in all.
+all: CMakeFiles\Pr14a-State-Agopian-Armand.dir\all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\Pr14a-State-Agopian-Armand.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\Pr14a-State-Agopian-Armand.dir\rule
+
+# Convenience name for target.
+Pr14a-State-Agopian-Armand: CMakeFiles\Pr14a-State-Agopian-Armand.dir\rule
+
+.PHONY : Pr14a-State-Agopian-Armand
+
+# clean rule for target.
+CMakeFiles\Pr14a-State-Agopian-Armand.dir\clean:
+	$(MAKE) -f CMakeFiles\Pr14a-State-Agopian-Armand.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Pr14a-State-Agopian-Armand.dir\clean
+.PHONY : CMakeFiles\Pr14a-State-Agopian-Armand.dir\clean
+
+# clean rule for target.
+clean: CMakeFiles\Pr14a-State-Agopian-Armand.dir\clean
 
 .PHONY : clean
 
