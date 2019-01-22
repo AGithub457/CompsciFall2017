@@ -1,4 +1,0 @@
-C:\Users\Armand\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.3531.13\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\Armand\Google Drive\Development\CLionProjects\CompSciFall2017"
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Armand/Google Drive/Development/CLionProjects/CompSciFall2017/cmake-build-debug
